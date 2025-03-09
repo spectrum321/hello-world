@@ -30,5 +30,7 @@ const tema2 = [
     { question: "29. Un procesador se denomina superescalar cuando:", answers: [" Dispone de un procesador especial para el manejo de dígitos en coma flotante", " Dispone de varias escalas de integración", " Opera directamente con números en base 10, sin convertirlos a binario", " Puede ejecutar más de una instrucción por ciclo"], correct: 3 },
     { question: "30. En el registro de instrucciones de la unidad central de proceso, tenemos la información referente a:", answers: [" Las instrucciones que se ejecutan en lenguaje C", " Las instrucciones necesarias para la carga inicial del sistema operativo", " El código de las microinstrucciones generadas por el kernel", " La instrucción que se está ejecutando"], correct: 3 },
     { question: "31. El tipo de datos de entrada de una ALU (Unidad Aritmético Lógic son:", answers: [" Acumuladores", " Operandos", " Interrupciones", " Registros"], correct: 1},
+	{ question: "32. Cuando el resultado de una operación aritmética en un ordenador supera la longitud prevista para el resultado se dice que hay:", answers: ["OVERLAP", "OVERLAY", "OVERFLOW", "OVERBIT"], correct: 2 },
+    { question: "33. La técnica que permite solapar instrucciones mediante la división de su ejecución en etapas se denomina:", answers: ["Parametrización", "Segmentación", "Multiplexación", "Paginación"], correct: 1 }
     
 ];
