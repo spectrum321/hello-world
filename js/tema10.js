@@ -1,0 +1,17 @@
+const tema10 = [
+{ question: "01. ¿En qué sistema se encuentra el MULTICS?", answers: ["Sistema de Módulos", "Sistema por Capas", "Sistema Micronúcleo", "Sistema Monolítico"], correct: 1 },
+                { question: "02. ¿Las llamadas al sistema sirven de interfaz entre?", answers: ["Los programas de usuario y el Sistema Operativo", "El S.O. y estructuras de datos", "El intérprete de órdenes y programas", "Los programas de usuario y estructuras de datos"], correct: 0 },
+                { question: "03. El Multiproceso pertenece a qué grupo de sistemas operativos?", answers: ["S.O. según el tiempo de respuesta", "S.O. según su estructura", "S.O. según el número de procesadores", "S.O. según uso de red"], correct: 2 },
+                { question: "04. ¿Cuál NO es una variable para evaluar la carga de trabajo del S.O.?", answers: ["Tiempo de CPU", "Memoria necesaria", "Número de operaciones de E/S", "Número de usuarios no concurrentes"], correct: 3 },
+                { question: "05. ¿Cuál NO es función del Administrador del S.O.?", answers: ["Distribuir software en red", "Aplicar medidas de seguridad", "Instalar el S.O.", "Administrar esquemas de bases de datos"], correct: 3 },
+                { question: "06. ¿Cómo se denomina el núcleo en un S.O.?", answers: ["core", "shell", "firmware", "kernel"], correct: 3 },
+                { question: "07. ¿Cuál de estas afirmaciones es FALSA?", answers: ["El S.O. asigna recursos a programas", "El S.O. coordina componentes y optimiza", "La protección entre usuarios es tarea del hardware", "El S.O. facilita el uso del hardware y añade servicios"], correct: 2 },
+                { question: "08. ¿Cuál de estas afirmaciones es CORRECTA?", answers: ["El procesador en modo núcleo ejecuta código de usuarios", "El intérprete de órdenes gestiona ficheros", "El manejo de dispositivos es parte de la gestión de ficheros", "Ninguna es correcta"], correct: 3 },
+                { question: "09. ¿Cuál NO es un objetivo de un S.O.?", answers: ["Control de acceso de usuarios", "Formar el software y hardware del ordenador", "Facilitar el uso del ordenador", "Ejecutar rutinas de interrupciones"], correct: 1 },
+                { question: "10. ¿Qué afirmación es FALSA respecto a los S.O.?", answers: ["El núcleo se ejecuta en modo privilegiado", "Las bibliotecas del sistema facilitan la interacción con el núcleo", "El núcleo mantiene las abstracciones principales del S.O.", "En Linux, el núcleo asigna letras a discos físicos y lógicos"], correct: 3 },
+                { question: "11. ¿Cuál de estas afirmaciones sobre sistemas operativos es CORRECTA?", answers: ["Windows usa licencias GPL", "Unix solo funciona en procesadores SPARC", "Ubuntu, Fedora, Suse y Debian son versiones de Linux", "Linux carece de interfaz gráfica"], correct: 2 },
+                { question: "12. ¿Cuándo se clasifica un S.O. como asimétrico?", answers: ["Por el número de usuarios", "Por el número de procesadores", "Por el número de procesos", "Ninguna de las anteriores"], correct: 1 },
+                { question: "13. ¿Cuál NO es una función de un S.O.?", answers: ["Facilitar la comunicación hombre-máquina", "Protección de software y hardware", "Compilar código fuente de programas", "Controlar recursos utilizados por los usuarios"], correct: 2 },
+                { question: "14. ¿Cómo se ejecutan las partes del S.O. que acceden al hardware?", answers: ["Modo usuario", "Desarrolladas por usuarios", "Modo protegido", "De forma genérica"], correct: 2 }
+    
+];

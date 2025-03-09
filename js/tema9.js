@@ -1,0 +1,24 @@
+const tema9 = [
+{ question: "01. Respecto al almacenamiento en disco, ¿cuál de las siguientes afirmaciones resulta FALSA?", answers: ["Los datos se organizan en pistas", "Los datos se transfieren en bloques", "Cada pista almacena el mismo número de bits", "Los sectores adyacentes se separan con regiones rellenadas a unos"], correct: 3 },
+                { question: "02. Una SAN es:", answers: ["Sistema de almacenamiento RAID-5", "Máquina multiprocesador", "Sistema de almacenamiento compartido entre servidores", "Discos compartidos en red"], correct: 2 },
+                { question: "03. Sobre las soluciones de almacenamiento compartido, ¿cuál es cierta?", answers: ["SAN usa Fiber Channel y encapsula SCSI", "NAS usa TCP/IP con NFS y CIFS", "Ambas son ciertas", "Ambas son falsas"], correct: 2 },
+                { question: "04. ¿Qué protocolo permite a un NAS servir datos por bloques?", answers: ["NFS", "CIFS", "iSCSI", "FC"], correct: 2 },
+                { question: "05. En relación con la organización de discos duros:", answers: ["Cada disco tiene platos con dos caras", "Un cilindro es un conjunto de pistas alineadas", "Cada pista se divide en sectores con la misma capacidad", "Todas son ciertas"], correct: 3 },
+                { question: "06. ¿Cuál de las siguientes relaciones NO es correcta?", answers: ["1024 PB = 1 ZB", "1024 ZB = 1 YB", "1024 YB = 1 Brontobyte", "1024 Brontobytes = 1 Geopbyte"], correct: 0 },
+                { question: "07. ¿Cuántos bytes tiene un gibibyte?", answers: ["2^30 bytes", "2^20 bytes", "2^9 bytes", "No existe el gibibyte"], correct: 0 },
+                { question: "08. ¿Qué tienen en común disquete, disco Zip y disco Jaz?", answers: ["Son almacenamiento magnético-óptico", "Son almacenamiento semiconductores", "Son almacenamiento magnético", "Son almacenamiento óptico"], correct: 2 },
+                { question: "09. ¿Qué significa UDF?", answers: ["Universal Disk Format", "Universal Dispersed Frequency", "Union Device Free", "User Datagram Free"], correct: 0 },
+                { question: "10. 1 Saganbyte equivale a:", answers: ["1024 Brontobytes", "1024 Yottabytes", "1024 Jotabytes", "1024 Geopbytes"], correct: 3 },
+				{ question: "11. En una cabina de discos, ¿qué es un HOT SPARE?", answers: ["Cabina donde se ubican los discos", "Disco en espera de reemplazo por fallo", "Sistema de ventilación de las unidades de disco", "Último disco de la cadena de almacenamiento"], correct: 1 },
+                { question: "12. ¿A qué corresponde el término World Wide Name?", answers: ["A una dirección única que identifica un dispositivo en una SAN", "A un nombre genérico de un dominio de Internet", "A un servicio Web genérico de acceso público", "Al nuevo espacio de nombres utilizado en Internet2"], correct: 0 },
+                { question: "13. ¿Cuál de las siguientes unidades de almacenamiento es mayor?", answers: ["Petabyte (PB)", "Terabyte (TB)", "Yottabyte (YB)", "Zettabyte (ZB)"], correct: 2 },
+                { question: "14. En distribución de información, ¿cuál es INCORRECTA?", answers: ["En PUSH, el cliente descarga información periódicamente", "Hay PUSH de datos y PUSH de programas", "PUSH nunca guarda la información descargada en el disco cliente", "RSS es una tecnología PUSH en Web XML"], correct: 2 },
+                { question: "15. ¿Qué caracteriza a la partición activa de un disco duro?", answers: ["Debe ser primaria y se usa para arrancar el sistema", "Se pueden marcar hasta cuatro como activas", "Debe ser 'C:'", "El sistema no puede instalarse en la activa"], correct: 0 },
+                { question: "16. Ordene de menor a mayor capacidad:", answers: ["Gigabyte, Terabyte, Exabyte, Petabyte", "Megabyte, Gigabyte, Exabyte, Terabyte", "Gigabyte, Terabyte, Petabyte, Exabyte", "Gigabyte, Petabyte, Terabyte, Exabyte"], correct: 2 },
+                { question: "17. Las unidades SSD:", answers: ["Son almacenamiento como los discos duros", "Funcionan como la RAM", "Contienen hardware Ethernet", "Contienen hardware USB"], correct: 0 },
+                { question: "18. Ordene de menor a mayor capacidad:", answers: ["Petabyte, Exabyte, Yottabyte, Zettabyte", "Petabyte, Exabyte, Zettabyte, Yottabyte", "Exabyte, Petabyte, Zettabyte, Yottabyte", "Exabyte, Zettabyte, Yottabyte, Petabyte"], correct: 1 },
+                { question: "19. ¿Cuánta capacidad total tiene un PC con dos discos de 1GB y 1024KB?", answers: ["10.241.024.102 bits", "1.025 MB", "0.5 TB", "2048 MB"], correct: 1 },
+                { question: "20. Los dispositivos SSD:", answers: ["Tienen mejor rendimiento que HDD", "Son más caros que HDD", "Usan memoria no volátil", "Todas son correctas"], correct: 3 },
+                { question: "21. Los tipos de volúmenes pueden ser:", answers: ["Básicos y dinámicos", "Simples y compuestos", "Locales y remotos", "Simples, anexos, seccionados, espejos y RAID"], correct: 3 }
+    
+];

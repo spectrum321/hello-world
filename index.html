@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interactivo</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+        .quiz-container { max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; }
+        .hidden { display: none; }
+        button { margin-top: 10px; padding: 10px; cursor: pointer; }
+        .correct { background-color: lightgreen; }
+        .incorrect { background-color: lightcoral; }
+        .wrong-answer { color: red; }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h2>Test Informática</h2>
+        <div id="categories">
+            <button onclick="loadQuestions('tema2')">TEST TEMA 2 Organización y funcionamiento de las unidades de proceso.Lenguaje máquina, conjuntos de instrucciones y modos de direccionamiento.Unidades de control de lógica cableada y lógica microprogramaza.Interrupciones.</button>
+            <button onclick="loadQuestions('tema4')">TEST TEMA 4.Microinformática.Arquitecturas y componentes.Problemas de Hardware.</button>
+			<button onclick="loadQuestions('tema6')">TEST TEMA 6.Memoria principal.Clases de memorias.Organización interna de la memoria.Memoria caché. </button>
+			<button onclick="loadQuestions('tema7')">TEST TEMA 7.El subsistema de Entrada / Salida.Control de periféricos.Clases de periféricos.Acceso directo a memoria.Canales. Prioridades</button>
+			<button onclick="loadQuestions('tema8')">TEST TEMA 8.Gestión de la memoria.Paginación.Memoria virtual.</button>
+			<button onclick="loadQuestions('tema9')">TEST TEMA 9.Dispositivos de almacenamiento masivo.Sistemas de Almacenamiento Distribuidos.Unidades de medida.</button>
+			<button onclick="loadQuestions('tema10')">Test TEMA 10.Sistemas operativos.</button>
+			<button onclick="loadQuestions('tema11')">TEST TEMA 11.Sistema Microsoft Windows.Directorio Activo.</button>
+			<button onclick="loadQuestions('tema12')">Test TEMA 12.Sistemas Operativos Unix y Linux.</button>
+			<button onclick="loadQuestions('tema13')">Test TEMA 13.Sistemas Operativos para dispositivos móviles.</button>
+			<button onclick="loadQuestions('tema14')">Test TEMA 14.Organización y métodos de acceso a ficheros.Ficheros indexados. Ficheros con acceso disperso.Gestión de Ficheros.Sistemas de archivos.</button>
+			<button onclick="loadQuestions('tema15')">TEST TEMA 15.Gestión de Procesos.</button>
+			<button onclick="loadQuestions('tema18')">TEST TEMA 18.Lenguaje SQL.</button>
+			<button onclick="loadQuestions('tema19')">TEST TEMA 19.Administración de bases de datos.Funciones y responsabilidades del Administrador.Gestión del espacio y gestión de accesos.Concurrencia. Integridad y recuperación. Seguridad.</button>
+			<button onclick="loadQuestions('tema23')">TEST TEMA 23.Mantenimiento de Sistemas de Información.Reingeniería de sistemas de información e ingeniería inversa.Gestión de la Configuración.</button>
+			<button onclick="loadQuestions('tema24')">TEST TEMA 24.Arquitectura cliente/servidor.Modelo de 2 capas. Modelo de 3 capas.Componentes y funcionalidades. </button>
+			<button onclick="loadQuestions('tema25')">TEST TEMA 25.Arquitecturas de servicios Web (WS).Herramientas de programación Web.Organizaciones responsables de los Servicios Web. </button>
+			<button onclick="loadQuestions('tema31')">TEST TEMA 31.ASP y ASP.Net.JSP y PHP.Visual Basic.</button>
+			<button onclick="loadQuestions('tema33')">TEST TEMA 33.Applets y servlets.Javascript </button>
+			<button onclick="loadQuestions('tema34')">TEST TEMA 34.HTML y derivaciones.</button>
+			<button onclick="loadQuestions('tema35')">TEST TEMA 35.XML y derivaciones.</button>
+			<button onclick="loadQuestions('tema36')">TEST TEMA 36.Navegadores.Portales.Gestores de Contenidos.</button>
+			<button onclick="loadQuestions('tema37')">TEST TEMA 37.Aplicaciones Móviles.Tecnologías de programación para móviles.Servicios y tecnologías de comunicaciones móviles.</button>
+			<button onclick="loadQuestions('tema40')">TEST TEMA 40.Telecomunicaciones.Sistemas de cableado.Medios de transmisión.Modos de comunicación.Equipos de interconexión.Los modelos OSI y TCP/IP.Protocolos.</button>
+			<button onclick="loadQuestions('tema41')">TEST TEMA 41.Servicios y sistemas públicos de transmisión de datos.Frame Relay, ATM, RDSI y xDSL.</button>
+			<button onclick="loadQuestions('tema42')">TEST TEMA 42.Internet.Servicios y Protocolos.La Nube.</button>
+			<button onclick="loadQuestions('tema43')">TEST TEMA 43.Redes de área local.Topologías.Métodos de acceso al medio.Estándares IEEE.Sistemas inalámbricos.</button>
+			<button onclick="loadQuestions('tema44')">TEST TEMA 44.Objetivos de la seguridad informática.Plan de seguridad corporativo. Análisis de riesgos.Método MAGERIT.Planes de contingencia.La seguridad en comunicaciones y redes de ordenadores.Sistemas RAID.Sistemas de cortafuegos (firewalls).</button>
+			<button onclick="loadQuestions('tema45')">TEST TEMA 45.Redes Privadas Virtuales (VPN).</button>
+			<button onclick="loadQuestions('tema46')">TEST TEMA 46.Centros de Proceso de Datos.</button>
+			<button onclick="loadQuestions('tema47')">TEST TEMA 47.Sistemas de gestión de incidencias.Control remoto de puestos de usuario.Virtualización.</button>
+			<button onclick="loadQuestions('tema48')">TEST TEMA 48.La sociedad de la información.Legislación sobre sociedad de la información y firma electrónica.Comercio Electrónico y Factura Electrónica.Ley General de Telecomunicaciones.Certificados electrónicos.El DNIe.Algoritmos de cifrado. Criptografía.</button>
+            <button onclick="loadQuestions('random')">Preguntas Aleatorias</button>
+        </div>
+        <h2 id="question" class="hidden">Pregunta aquí</h2>
+        <div id="answers" class="hidden"></div>
+        <h3 id="score" class="hidden"></h3>
+        <div id="correct-answers" class="hidden"></div>
+        <button id="restart" class="hidden" onclick="restartQuiz()">Volver al menú</button>
+    </div>
+
+    <script src="js/tema2.js"></script>
+    <script src="js/tema4.js"></script>
+	<script src="js/tema6.js"></script>
+	<script src="js/tema7.js"></script>
+	<script src="js/tema8.js"></script>
+	<script src="js/tema9.js"></script>
+	<script src="js/tema10.js"></script>
+	<script src="js/tema11.js"></script>
+	<script src="js/tema12.js"></script>
+	<script src="js/tema13.js"></script>
+	<script src="js/tema14.js"></script>
+	<script src="js/tema15.js"></script>
+	<script src="js/tema18.js"></script>
+	<script src="js/tema19.js"></script>
+	<script src="js/tema23.js"></script>
+	<script src="js/tema24.js"></script>
+	<script src="js/tema25.js"></script>
+	<script src="js/tema31.js"></script>
+	<script src="js/tema33.js"></script>
+	<script src="js/tema34.js"></script>
+	<script src="js/tema35.js"></script>
+	<script src="js/tema36.js"></script>
+	<script src="js/tema37.js"></script>
+	<script src="js/tema40.js"></script>
+	<script src="js/tema41.js"></script>
+	<script src="js/tema42.js"></script>
+	<script src="js/tema43.js"></script>
+	<script src="js/tema44.js"></script>
+	<script src="js/tema45.js"></script>
+	<script src="js/tema46.js"></script>
+	<script src="js/tema47.js"></script>
+	<script src="js/tema48.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
