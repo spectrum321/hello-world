@@ -2,7 +2,9 @@ let quiz = [];
 let currentQuestion = 0;
 let score = 0;
 let incorrectAnswers = [];
+let unansweredQuestions = [];
 let answeredIncorrectly = false;
+let answered = false;
 
  document.body.style.backgroundColor = "#ffffee"; // Color suave para la vista
 
@@ -167,7 +169,26 @@ function exitQuiz() {
         location.reload(); // Recarga la página para volver al inicio
     }
 }
+function checkAnswer(button, index) {
+    answered = true;
+    if (index === quiz[currentQuestion].correct) {
+        button.style.backgroundColor = "lightgreen";
+        if (!answeredIncorrectly) {
+            score++;
+        }
+    } else {
+        button.style.backgroundColor = "lightcoral";
+        incorrectAnswers.push(currentQuestion);
+        answeredIncorrectly = true;
+    }
+}
+
 function nextQuestion() {
+    if (!answered) {
+        unansweredQuestions.push(currentQuestion);
+    }
+    answered = false;
+    answeredIncorrectly = false;
     currentQuestion++;
     if (currentQuestion < quiz.length) {
         showQuestion();
@@ -176,21 +197,24 @@ function nextQuestion() {
     }
 }
 
-function checkAnswer(button, index) {
-    if (index === quiz[currentQuestion].correct) {
-        button.classList.add("correct");
-        if (!answeredIncorrectly) {
-            score++;
-        }
-        
-    } else {
-        button.classList.add("incorrect");
-        incorrectAnswers.push(currentQuestion);
-        answeredIncorrectly = true;
-    }
+function showScore() {
+    document.getElementById("question").textContent = "¡Quiz terminado!";
+    document.getElementById("answers").innerHTML = "";
+    document.getElementById("score").textContent = `Puntuación: ${score} de ${quiz.length}`;
+    document.getElementById("score").classList.remove("hidden");
+
+    let correctAnswersHTML = "<h4>Respuestas correctas:</h4><ul>";
+    quiz.forEach((q, index) => {
+        let color = unansweredQuestions.includes(index) ? 'gray' : incorrectAnswers.includes(index) ? 'red' : 'green';
+        correctAnswersHTML += `<li style="color:${color}">${q.question} - <strong>${q.answers[q.correct]}</strong></li>`;
+    });
+    correctAnswersHTML += "</ul>";
+    document.getElementById("correct-answers").innerHTML = correctAnswersHTML;
+    document.getElementById("correct-answers").classList.remove("hidden");
+	document.getElementById("restart").classList.remove("hidden");
 }
 
-function showScore() {
+/* function showScore() {
     document.getElementById("question").textContent = "¡Quiz terminado!";
     document.getElementById("answers").innerHTML = "";
     document.getElementById("score").textContent = `Puntuación: ${score} de ${quiz.length}`;
@@ -205,7 +229,7 @@ function showScore() {
     document.getElementById("correct-answers").innerHTML = correctAnswersHTML;
     document.getElementById("correct-answers").classList.remove("hidden");
     document.getElementById("restart").classList.remove("hidden");
-}
+} */
 
 function restartQuiz() {
     currentQuestion = 0;
