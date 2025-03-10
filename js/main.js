@@ -135,11 +135,45 @@ function showQuestion() {
         const button = document.createElement("button");
         button.textContent = `${answerLabels[index]} ${answer}`;
         button.onclick = () => checkAnswer(button, index);
-        button.style.display = "block"; // Hace que cada respuesta aparezca en una fila
-        button.style.margin = "10px 0"; // Agrega margen entre respuestas
-        button.style.width = "50%"; // Ajusta el ancho para mejor presentación
+        button.style.display = "block";
+        button.style.margin = "10px 0";
+        button.style.width = "50%";
         answersElement.appendChild(button);
     });
+    
+    // Agregar botón de siguiente pregunta
+    const nextButton = document.createElement("button");
+    nextButton.textContent = "Siguiente Pregunta";
+    nextButton.style.marginTop = "20px";
+    nextButton.onclick = () => nextQuestion();
+    answersElement.appendChild(nextButton);
+	
+	   // Botón de Salir del Test
+    const exitButton = document.createElement("button");
+    exitButton.textContent = "Salir del Test";
+    exitButton.style.marginTop = "10px";
+    exitButton.style.backgroundColor = "red";
+    exitButton.style.color = "white";
+    exitButton.style.border = "none";
+    exitButton.style.padding = "10px 20px";
+    exitButton.style.cursor = "pointer";
+    exitButton.onclick = () => exitQuiz();
+    answersElement.appendChild(exitButton);
+
+}
+// Función para salir del test
+function exitQuiz() {
+    if (confirm("¿Seguro que quieres salir del test? Perderás el progreso.")) {
+        location.reload(); // Recarga la página para volver al inicio
+    }
+}
+function nextQuestion() {
+    currentQuestion++;
+    if (currentQuestion < quiz.length) {
+        showQuestion();
+    } else {
+        showScore();
+    }
 }
 
 function checkAnswer(button, index) {
@@ -148,15 +182,7 @@ function checkAnswer(button, index) {
         if (!answeredIncorrectly) {
             score++;
         }
-        setTimeout(() => {
-            currentQuestion++;
-            answeredIncorrectly = false;
-            if (currentQuestion < quiz.length) {
-                showQuestion();
-            } else {
-                showScore();
-            }
-        }, 1000);
+        
     } else {
         button.classList.add("incorrect");
         incorrectAnswers.push(currentQuestion);
