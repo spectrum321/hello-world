@@ -37,7 +37,7 @@ const tema43 = [
     
     { question: "18. ¿Cuál de las siguientes es la \"dirección de difusión limitada\" en redes IPv4?", answers: ["224.0.0.255", "127.0.0.0", "255.255.255.255", "Ninguna de las anteriores."], correct: 2 },
     
-    { question: "19. ¿Qué tipo de Wifi es más rápido?", answers: ["802.11n", "802.11g", "802.11b", "802.11a"], correct: 0 },
+    { question: "19. ¿Qué tipo de Wifi es más rápido?", answers: ["802.11ac", "802.11g", "802.11n", "802.11a"], correct: 0 },
     
     { question: "20. ¿En qué banda funciona el WiFi 802.11n?", answers: ["5Ghz", "UHF", "El 802.11n funciona en varias bandas", "2,4GHz"], correct: 2 },
     
