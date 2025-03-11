@@ -22,8 +22,15 @@ const tema4 = [
                 { question: "21. Indique cuál es la velocidad de transmisión de datos del estándar USB 3.1 Gen 2:", answers: ["480Mbps", "480 Gbps", "10 Gbps", "100 Mbps"], correct: 2 },
 				{ question: "22. ¿Cuáles son las dos actividades que normalmente controla el puente norte del conjunto de chips?", answers: ["La comunicación entre la CPU y los puertos de E/S", "El acceso a la RAM y a la tarjeta de video", "La comunicación entre la CPU y el disco duro", "La comunicación entre la CPU y la RAM"], correct: 1 },
                 { question: "23. Un técnico observa una placa base y ve un conector de 24 pines. ¿Qué componente se puede conectar a la placa base mediante ese conector?", answers: ["Fuente de alimentación", "Tarjeta de vídeo", "Unidad SATA", "Unidad de disquete"], correct: 0 },
-                { question: "24. La diferencia entre dos monitores con resolución 1080p y 1080i, con 60Hz de refresco, radica en:", answers: ["El 'i' actualiza todos los puntos de la imagen 60 veces por segundo", "El 'p' actualiza todos los puntos de la imagen 60 veces por segundo", "El 'i' refresca 30 veces las líneas pares y 30 veces las impares", "El 'p' refresca 30 veces las líneas pares y 30 veces las impares"], correct: 1 },
+                { question: "24. La diferencia entre dos monitores con resolución 1080p y 1080i, con 60Hz de refresco, radica en:", answers: ["El 'i' actualiza todos los puntos de la imagen 60 veces por segundo", "1920 x 1080, el 'p' actualiza todos los puntos de la imagen 60 veces por segundo, mientras el 'i' refresca 30 veces las líneas pares y otras 30 veces las impares por segundo.", "El 'i' refresca 30 veces las líneas pares y 30 veces las impares", "El 'p' refresca 30 veces las líneas pares y 30 veces las impares"], correct: 1 },
                 { question: "25. ¿Cuál NO es un estándar/driver de escáner para tecnologías de escaneo de imágenes?", answers: ["ISIS", "OASIS", "TWAIN", "WIA"], correct: 1 },
-                { question: "26. Indique cuál es la velocidad de transmisión de datos del estándar USB 3.1 Gen 2:", answers: ["480Mbps", "480 Gbps", "10 Gbps", "100 Mbps"], correct: 2 }				
+                { question: "26. Indique cuál es la velocidad de transmisión de datos del estándar USB 3.1 Gen 2:", answers: ["480Mbps", "480 Gbps", "10 Gbps", "100 Mbps"], correct: 2 },
+    { question: "27. ¿Cuál es la velocidad de transmisión de datos de Thunderbolt 2?", answers: ["10 Gbps", "480 Gbps", "20 Gbps", "32 Gbps"], correct: 2 },
+    
+    { question: "28. Una LAN pequeña utiliza una impresora compartida que está conectada a un PC. Ninguno de los usuarios puede imprimir, pero todos pueden tener acceso a los recursos compartidos del PC al que la impresora está conectada en forma local. ¿Cuál NO es una posible causa de este problema?", answers: ["El cable que conecta la impresora al PC presenta un fallo.", "La impresora necesita tóner.", "El cable de red del PC presenta un fallo.", "Se cargó el papel incorrecto en la impresora."], correct: 2 },
+    
+    { question: "29. Según el estándar del nuevo USB 3.1, ¿cuál es su velocidad?", answers: ["12 Gbps", "8 Gbps", "6 Gbps", "10 Gbps"], correct: 3 },
+    
+    { question: "30. ¿Qué tecnología comenzó siendo como Light Peak?", answers: ["USB", "fibra óptica", "Thunderbolt", "Ethernet"], correct: 2 }				
     
 ];
