@@ -73,7 +73,7 @@ const tema43 = [
     
     { question: "36. Indique el número de puerto que debería usarse sí se quiere configurar un servicio para usar el protocolo de configuración dinámica de host DHCP para IPv6:", answers: ["58", "169", "389", "547"], correct: 3 },
     
-    { question: "37. ¿Cuál es la dirección de red de una dirección IP: 192.168.30.200 cuya máscara es 255.255.255.128?", answers: ["192.168.30.0", "192.168.30.128", "192.168.30.255", "192.168.30.200"], correct: 1 },
+    // { question: "37. ¿Cuál es la dirección de red de una dirección IP: 192.168.30.200 cuya máscara es 255.255.255.128?", answers: ["192.168.30.0", "192.168.30.128", "192.168.30.255", "192.168.30.200"], correct: 1 },
     
     { question: "38. El comando ping es el acrónimo de:", answers: ["Packet Internet Group.", "Packet Internet Gangway.", "Packet Internet Gate.", "Packet Internet Groper."], correct: 3 },
     
@@ -81,7 +81,7 @@ const tema43 = [
     
     { question: "40. El estándar conocido como WRAN (Wireless Regional Area Network) pertenece al grupo de trabajo del IEEE:", answers: ["802.19", "802.20", "802.21", "802.22"], correct: 3 },
     
-    { question: "41. Señale cuáles son las direcciones IP de red y de broadcast para la siguiente subred 132.27.43.25/27:", answers: ["red: 132.27.43.31/27 y broadcast: 132.27.43.0", "red: 132.27.43.20/27 y broadcast: 132.27.43.1", "red: 132.27.43.0/27 y broadcast: 132.27.43.1", "red: 132.27.43.0/27 y broadcast: 132.27.43.31"], correct: 3 },
+    // { question: "41. Señale cuáles son las direcciones IP de red y de broadcast para la siguiente subred 132.27.43.25/27:", answers: ["red: 132.27.43.31/27 y broadcast: 132.27.43.0", "red: 132.27.43.20/27 y broadcast: 132.27.43.1", "red: 132.27.43.0/27 y broadcast: 132.27.43.1", "red: 132.27.43.0/27 y broadcast: 132.27.43.31"], correct: 3 },
     
     { question: "42. Según RFC 2460, señale de las siguientes cabeceras IPv6 cuál es una cabecera de extensión:", answers: ["Cabecera Siguiente.", "Fragmento.", "Límite de Saltos.", "Longitud de la Carga Útil."], correct: 1 },
     
@@ -89,7 +89,7 @@ const tema43 = [
     
     { question: "44. ¿Cuál es el tipo de la dirección IPv6 ::1/128?", answers: ["Loopback.", "Indefinida (Unspecified).", "Multicast.", "No es válida."], correct: 0 },
     
-    { question: "45. ¿Cuál es la dirección de broadcast de la subred 172.17.11.32/27?", answers: ["172.17.11.255", "172.17.11.63", "172.17.11.47", "172.17.255.255"], correct: 1 },
+   // { question: "45. ¿Cuál es la dirección de broadcast de la subred 172.17.11.32/27?", answers: ["172.17.11.255", "172.17.11.63", "172.17.11.47", "172.17.255.255"], correct: 1 },
     
     { question: "46. En el ámbito de las redes inalámbricas, la variante IEEE 802.11a:", answers: ["Opera dentro del rango de los 5 GHz.", "Es compatible con el estándar 802.11b.", "Es compatible con el estándar 802.11g.", "Incorpora QoS (Calidad de Servicio)."], correct: 0 },
     
@@ -113,7 +113,7 @@ const tema43 = [
     
     { question: "56. ¿Cuántas direcciones IP están contenidas en una subred con mascara /27 ó 255.255.255.224?", answers: ["128", "64", "32", "16"], correct: 2 },
     
-    { question: "57. Consideramos la subred 193.146.76.160/27, ¿cuál de las siguientes direcciones se puede utilizar en dicha subred?", answers: ["193.146.76.158", "193.146.76.190", "193.146.76.193", "193.146.76.196"], correct: 1 },
+   // { question: "57. Consideramos la subred 193.146.76.160/27, ¿cuál de las siguientes direcciones se puede utilizar en dicha subred?", answers: ["193.146.76.158", "193.146.76.190", "193.146.76.193", "193.146.76.196"], correct: 1 },
     
     { question: "58. El protocolo Rapid Spanning Tree Protocol (RSTP) esta especificado en:", answers: ["802.1d", "802.1q", "802.1d", "802.1w"], correct: 3 },
     
