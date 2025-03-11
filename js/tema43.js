@@ -65,7 +65,7 @@ const tema43 = [
     
     { question: "32. Se va a abrir un nuevo Centro de Salud y el responsable de Informática de la Gerencia ha reservado el siguiente direccionamiento para el centro: 10.0.10.0/255.255.255.0 ¿Cuál es el número máximo de equipos que podremos conectar en red usando dicho direccionamiento?", answers: ["255", "1", "254", "126"], correct: 2 },
     
-    { question: "33. En el hospital ha surgido un nuevo proyecto para dotar de cobertura WiFi las nuevas zonas de hospitalización. De las siguientes alternativas, ¿qué tecnología WiFi usaría para ofrecer a los usuarios la velocidad de acceso más alta?", answers: ["802.11g", "802.11a", "802.11b", "802.11n"], correct: 3 },
+    { question: "33. En el hospital ha surgido un nuevo proyecto para dotar de cobertura WiFi las nuevas zonas de hospitalización. De las siguientes alternativas, ¿qué tecnología WiFi usaría para ofrecer a los usuarios la velocidad de acceso más alta?", answers: ["802.11g", "802.11n", "802.11b", "802.11ac"], correct: 3 },
     
     { question: "34. ¿Cuál de los siguientes protocolos es un estándar IEEE para el control de acceso a la red?", answers: ["802.1x", "802.11n", "802.1q", "802.1s"], correct: 0 },
     
@@ -90,7 +90,8 @@ const tema43 = [
     { question: "44. ¿Cuál es el tipo de la dirección IPv6 ::1/128?", answers: ["Loopback.", "Indefinida (Unspecified).", "Multicast.", "No es válida."], correct: 0 },
     
    // { question: "45. ¿Cuál es la dirección de broadcast de la subred 172.17.11.32/27?", answers: ["172.17.11.255", "172.17.11.63", "172.17.11.47", "172.17.255.255"], correct: 1 },
-    
+   { question: "45. En el ámbito de las redes inalámbricas, la variante IEEE 802.11ac:", answers: ["Opera dentro del rango de los 6 GHz.", "Opera dentro del rango de los 2.4 GHz.", "Opera dentro del rango de los 5 GHz.", "Opera dentro del rango de los 11 GHz."], correct: 0 },
+   
     { question: "46. En el ámbito de las redes inalámbricas, la variante IEEE 802.11a:", answers: ["Opera dentro del rango de los 5 GHz.", "Es compatible con el estándar 802.11b.", "Es compatible con el estándar 802.11g.", "Incorpora QoS (Calidad de Servicio)."], correct: 0 },
     
     { question: "47. El estándar IEEE 802.11e sobre redes inalámbricas se corresponde con especificaciones …", answers: ["para la coexistencia con sistemas de Radar o Satélite.", "de seguridad.", "de roaming.", "sobre calidad de servicio QoS."], correct: 3 },
