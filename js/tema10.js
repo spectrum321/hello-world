@@ -12,6 +12,10 @@ const tema10 = [
                 { question: "11. ¿Cuál de estas afirmaciones sobre sistemas operativos es CORRECTA?", answers: ["Windows usa licencias GPL", "Unix solo funciona en procesadores SPARC", "Ubuntu, Fedora, Suse y Debian son versiones de Linux", "Linux carece de interfaz gráfica"], correct: 2 },
                 { question: "12. ¿Cuándo se clasifica un S.O. como asimétrico?", answers: ["Por el número de usuarios", "Por el número de procesadores", "Por el número de procesos", "Ninguna de las anteriores"], correct: 1 },
                 { question: "13. ¿Cuál NO es una función de un S.O.?", answers: ["Facilitar la comunicación hombre-máquina", "Protección de software y hardware", "Compilar código fuente de programas", "Controlar recursos utilizados por los usuarios"], correct: 2 },
-                { question: "14. ¿Cómo se ejecutan las partes del S.O. que acceden al hardware?", answers: ["Modo usuario", "Desarrolladas por usuarios", "Modo protegido", "De forma genérica"], correct: 2 }
+                { question: "14. ¿Cómo se ejecutan las partes del S.O. que acceden al hardware?", answers: ["Modo usuario", "Desarrolladas por usuarios", "Modo protegido", "De forma genérica"], correct: 2 },
+				    {question: "15. TinyOS, cuyo diseño está orientado a sistemas embebidos inalámbricos de baja potencia, está escrito en el lenguaje:", answers: ["Java", "Python", ".Net", "nesC"], correct: 3},
+    {question: "16. En el contexto de los sistemas operativos, ¿qué es un Kernel Panic?", answers: ["No existe tal terminología.", "Es un error de los dispositivos de entrada/salida.", "Es un error en el núcleo del sistema.", "Es un tipo de error de memoria."], correct: 2},
+    {question: "17. ¿Cuál no es una responsabilidad propia del Administrador del Sistema?", answers: ["Instalación de software.", "Optimización del sistema y monitorización.", "Decidir quiénes se dan de alta en el sistema de usuarios.", "Todas (a, b y c) son su responsabilidad."], correct: 2},
+    {question: "18. ¿Cuál de estas es una función de un administrador de sistemas?", answers: ["Verificar la integridad de una base de datos.", "Controlar los ataques de Cross-Site Scripting.", "Analizar los diagramas de clases de una aplicación.", "Monitorizar la comunicación de red."], correct: 3}
     
 ];
