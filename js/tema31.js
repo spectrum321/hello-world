@@ -59,4 +59,12 @@ const tema31 = [
     { question: "29. Trabajando sobre la plataforma Entity Framework de .NET, ¿cuál de las siguientes opciones representa la extensión de los ficheros en los que se define el Entity Data Model de ADO.NET?", answers: [".edmx", ".edms", ".edm", ".edma"], correct: 0 },
 
     { question: "30. ¿Cuál de las siguientes opciones representa una librería para gestión de logs en aplicaciones desarrolladas en la plataforma .NET?", answers: ["Apache Log4C#.", "Apache Logging4NET.", "Apache Log4NET.", "Apache LoggedForNET."], correct: 2 },
+    { question: "31. ¿Cuál de los siguientes bloques de código en PHP permite que se escriba al menos una vez el valor de la variable $i?", answers: ["<?php $i = 0; do { echo $i;} while ($i > 0); ?>", "<?php $i = 1; while($i < 0) { echo $i;} ?>", "<?php for ($i = 1; $i < 0; $i--) { echo $i;} ?>", "<?php $i = 1;if ($i < 0) { echo $i;} ?>"], correct: 0 },
+    
+    { question: "32. Señale de entre los siguientes cuál NO es un framework de pruebas unitarias para Microsoft .NET:", answers: ["xUnit", "xUnit.net", "NUnit", "csUnit"], correct: 0 },
+    
+    { question: "33. Elija la respuesta correcta:", answers: ["La JavaServer Pages Standard Tag Library (JSTL) es una colección de bibliotecas de etiquetas con utilidades ampliamente utilizadas en el desarrollo de páginas web.", "Apache Struts es un framework de desarrollo bajo el modelo vista controlador que sirve para crear Aplicaciones web con Smalltalk.", "El Unified Expression Language (EL) integra los JSP con los servlets.", "Los Applets y las Java Server Pages (JSPs) son dos métodos de creación de páginas web dinámicas en servidor usando el lenguaje Java."], correct: 0 },
+    
+    { question: "34. El Entity Framework es:", answers: ["Un framework ORM (object-relational mapper) desarrollado por Microsoft e integrado en la plataforma .NET.", "Una utilidad que permite identificar las funcionalidades de un sistema informático.", "Una herramienta de planificación y gestión del software desarrollado por Microsoft.", "Un framework orientado a la realización de aplicaciones web implementado por Microsoft que respecta el modelo vista controlador."], correct: 0 }
 ];
+   

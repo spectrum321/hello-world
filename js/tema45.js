@@ -18,5 +18,11 @@ const tema45 = [
     
     { question: "09. Se le plantea la necesidad de unir dos sedes situadas en ciudades distintas vía telemática, intentando minimizar los costes y con nivel de seguridad similar al que se obtendría al unirlas físicamente por cable. ¿Cuál de estas soluciones escogería?", answers: ["Contratación a un operador de telecomunicaciones de líneas de comunicación dedicadas.", "Uso de firewalls y tecnologías VPN a través de Internet.", "Creación de una red interconexión LAN-MAN entre ambas sedes.", "Uso de proxies de comunicaciones a través de una red MAN."], correct: 1 },
     
-    { question: "10. ¿Cuál de los siguientes es un protocolo de tunneling?", answers: ["MLTP: Multi Level Tunneling Protocol", "SSL: Secure Sockets Layer", "L2PP: Layer 2 Private Protocol", "GRE: Generic Routing Encapsulation"], correct: 3 }
+    { question: "10. ¿Cuál de los siguientes es un protocolo de tunneling?", answers: ["MLTP: Multi Level Tunneling Protocol", "SSL: Secure Sockets Layer", "L2PP: Layer 2 Private Protocol", "GRE: Generic Routing Encapsulation"], correct: 3 },
+
+    { question: "11. De entre los siguientes, ¿qué protocolo es utilizado para implantar Redes Privadas Virtuales?", answers: ["ARP", "IPSEC", "RARP", "TCP"], correct: 1 },
+    
+    { question: "12. Indique la afirmación correcta respecto a VPLS:", answers: ["Sólo permite establecer enlaces VPN punto a punto.", "Ofrece un servicio VPN de capa 4.", "Permite establecer Calidad de Servicio (QoS) utilizando el campo EXP.", "Sólo es útil en un contexto LAN."], correct: 2 },
+    
+    { question: "13. Indique la respuesta FALSA, respecto al protocolo IPSEC:", answers: ["El protocolo IPSEC AH garantiza integridad y autenticación, pero no confidencialidad.", "El protocolo IPSEC ESP utiliza el número de protocolo 50 en la cabecera IP.", "IPSEC utiliza IKE como protocolo de intercambio de claves.", "IPSEC ESP es incompatible con el modo transporte, sólo se puede utilizar en modo túnel."], correct: 3 }
 ];

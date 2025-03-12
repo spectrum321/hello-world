@@ -85,6 +85,9 @@ function loadQuestions(category) {
 		case 'tema40': testTitle = 'TEST TEMA 40';
             quiz = tema40;
             break;
+		case 'tema402': testTitle = 'TEST TEMA 402';
+            quiz = tema402;
+            break;
 		case 'tema41': testTitle = 'TEST TEMA 41';
             quiz = tema41;
            break;
@@ -111,11 +114,14 @@ function loadQuestions(category) {
            break; 	
 		case 'tema1opo': testTitle = 'TEST TEMA 1 OPO';
             quiz = tema1opo;
-           break; 			   
+           break; 
+		case 'tema2opo': testTitle = 'TEST TEMA 2 OPO';
+            quiz = tema2opo;
+           break; 		   
         case 'random':
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
-			 ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema41, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
-			 ...tema47, ...tema48, ...tema1opo].sort(() => Math.random() - 0.5).slice(0, 50);
+			 ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema41, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
+			 ...tema47, ...tema48, ...tema1opo, ...tema2opo].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
             default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }

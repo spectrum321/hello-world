@@ -46,5 +46,7 @@ const tema34 = [
     
     { question: "23. ¿Cuál de las siguientes etiquetas presentes en HTML4 NO existe en HTML5?:", answers: ["<frame>", "<object>", "<form>", "<label>"], correct: 0 },
     
-    { question: "24. ¿Cómo se especifica en HTML5 un target por defecto para todos los enlaces de una página, que abra el contenido de los mismos en una nueva ventana/pestaña del navegador una vez seleccionados?", answers: ["<base target=\"_parent\"/>", "<base target=\"_top\"/>", "<base target=\"_self\"/>", "<base target=\"_blank\"/>"], correct: 3 }
+    { question: "24. ¿Cómo se especifica en HTML5 un target por defecto para todos los enlaces de una página, que abra el contenido de los mismos en una nueva ventana/pestaña del navegador una vez seleccionados?", answers: ["<base target=\"_parent\"/>", "<base target=\"_top\"/>", "<base target=\"_self\"/>", "<base target=\"_blank\"/>"], correct: 3 },
+
+    { question: "25. ¿Qué métodos HTTP soporta una API REST?", answers: ["Get, post, put, delete", "Insert, update, select, delete", "Add, create, remove, modify", "Send, receive"], correct: 0 }
 ];

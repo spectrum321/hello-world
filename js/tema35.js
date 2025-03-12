@@ -32,5 +32,8 @@ const tema35 = [
     
     { question: "16. PLS es un estándar relacionado con VoiceXML, ¿para qué se utiliza en concreto?", answers: ["\"Decora\" las locuciones de forma que se generen de la mejor forma posible; por ejemplo, indicando el tono de una determinada locución (más alto o más bajo).", "Realiza el control de la llamada con VoiceXML.", "Define la forma en la que las palabras son pronunciadas.", "Define la estructura de las gramáticas usadas en el reconocimiento del habla."], correct: 2 },
     
-    { question: "17. ¿Cuál de las siguientes opciones es CIERTA sobre las hojas de estilo XSLT?", answers: ["La sintaxis de las hojas XSLT no está en formato XML.", "Las hojas de estilo XSLT, una vez aplicadas sobre un XML, sólo pueden generar otro XML.", "Dado un documento XML sólo se le puede aplicar una única hoja de estilo XSLT.", "XSLT es un lenguaje declarativo, no contiene una secuencia de instrucciones, sino plantillas a aplicar."], correct: 3 }
+    { question: "17. ¿Cuál de las siguientes opciones es CIERTA sobre las hojas de estilo XSLT?", answers: ["La sintaxis de las hojas XSLT no está en formato XML.", "Las hojas de estilo XSLT, una vez aplicadas sobre un XML, sólo pueden generar otro XML.", "Dado un documento XML sólo se le puede aplicar una única hoja de estilo XSLT.", "XSLT es un lenguaje declarativo, no contiene una secuencia de instrucciones, sino plantillas a aplicar."], correct: 3 },
+	
+    { question: "18. En un DTD nos encontramos con un elemento definido como: <!ELEMENT libro (titulo, autor+, precio?, materia*)>. De esta definición se pueden inferir algunas afirmaciones, señale la INCORRECTA:", answers: ["Todo libro deberá tener al menos una materia.", "Todo libro podrá o no tener un precio.", "Todo libro deberá tener al menos un autor.", "Todo libro tendrá necesariamente un título."], correct: 0 }
 ];
+  

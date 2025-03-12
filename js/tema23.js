@@ -26,5 +26,13 @@ const tema23 = [
     
     { question: "13. Son herramientas específicas de control de versiones de software:", answers: ["Mercurial, Git y Apache Subversion.", "Gimp, Mercurial y Git.", "RedMine, Planner y OpenProj.", "Cassandra, Git y REDIS."], correct: 0 },
     
-    { question: "14. Visual SourceSafe es:", answers: ["Una herramienta CASE.", "Un antivirus.", "Una herramienta de control de versiones de Microsoft.", "Una herramienta para modelado UML."], correct: 2 }
+    { question: "14. Visual SourceSafe es:", answers: ["Una herramienta CASE.", "Un antivirus.", "Una herramienta de control de versiones de Microsoft.", "Una herramienta para modelado UML."], correct: 2 },
+    { question: "15. En la herramienta de control de versiones Subversion, ¿con que comando se suben los cambios al repositorio?", answers: ["svn commit", "svn checkin", "svn checkout", "svn upload"], correct: 0 },
+    
+    { question: "16. ¿A qué perfil de Métrica v3 pertenece el Responsable de Mantenimiento?", answers: ["Jefe de Proyecto", "Consultor", "Analista", "Programador"], correct: 0 },
+    
+    { question: "17. La actividad EVS-GC 1 de la interface de Gestión de la Configuración (GC) de Métrica v3 recibe entre sus entradas un producto resultante de la actividad:", answers: ["EVS 4- Estudio de Alternativas de Solución", "EVS S- Valoración de las Alternativas", "EVS 3 - Definición de Requisitos del Sistema", "EVS 1 - Establecimiento del Alcance del Sistema"], correct: 2 },
+    
+    { question: "18. Cuando se habla de las pruebas de regresión en el contexto de la calidad del software, ¿qué tipo de fallo (bug) es un fallo de regresión?", answers: ["El que parece arreglarse espontáneamente y que posteriormente no es posible determinar el origen del mismo", "Todos aquellos que son de tipo lógico y que además consistan bien en un bucle infinito, bien en una llamada recursiva infinita", "Todos aquellos derivados de problemas de concurrencia entre diferentes hilos accediendo a un mismo recurso: condiciones de carrera, deadlocks, etc", "Aquel que inicialmente no existe o no se manifiesta, pero que aparece al introducir otros cambios en el programa o arreglar otro fallo en él, o tras ocurrir un evento externo dado"], correct: 3 }
 ];
+

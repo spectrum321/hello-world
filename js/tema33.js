@@ -28,6 +28,12 @@ const tema33 = [
     
     { question: "14. ¿Quién desarrolló el lenguaje JavaScript?", answers: ["Microsoft", "SUN", "Netscape", "W3C"], correct: 2 },
     
-    { question: "15. ¿Cuál de las siguientes opciones debemos elegir si queremos representar en JavaScript la condición de que el valor o tipo de la variable \"x\" sea distinto del número 9 (en valor o tipo)?", answers: ["(x <> 9)", "(x <=> 9)", "(x != 9)", "(x !== 9)"], correct: 3 }
+    { question: "15. ¿Cuál de las siguientes opciones debemos elegir si queremos representar en JavaScript la condición de que el valor o tipo de la variable \"x\" sea distinto del número 9 (en valor o tipo)?", answers: ["(x <> 9)", "(x <=> 9)", "(x != 9)", "(x !== 9)"], correct: 3 },
+    
+	{ question: "16. ¿Qué tecnología impide la ejecución de los applets de Java en el navegador Chrome en sus últimas versiones?", answers: ["XQAPI", "PPAPI", "CRAPI", "NPAPI"], correct: 3 },
+       
+    { question: "17. Indique cuál de los siguientes es un valor JSON válido:", answers: ["'hola'", "null", "nombre : juan", "nombre : \"juan\""], correct: 1 }
     
 ];
+   
+

@@ -26,5 +26,13 @@ const tema46 = [
     
     { question: "13. Nagios es:", answers: ["Un sistema de monitorización de infraestructuras de tecnologías de la Información.", "Un sistema de autenticación de usuarios de Windows, basado en Kerberos.", "Una herramienta de control de versiones.", "Un sistema de intercambio de ficheros P2P."], correct: 0 },
     
-    { question: "14. En los cuadros eléctricos de un CPD, los interruptores diferenciales:", answers: ["Protegen la instalación frente a sobrecargas y cortocircuitos.", "Protegen a las personas de electrocución por un eventual contacto a un equipo con un problema de aislamiento eléctrico.", "Seleccionan la fase a la que se conecta la carga.", "Permiten repartir la carga entre las fases."], correct: 1 }
+    { question: "14. En los cuadros eléctricos de un CPD, los interruptores diferenciales:", answers: ["Protegen la instalación frente a sobrecargas y cortocircuitos.", "Protegen a las personas de electrocución por un eventual contacto a un equipo con un problema de aislamiento eléctrico.", "Seleccionan la fase a la que se conecta la carga.", "Permiten repartir la carga entre las fases."], correct: 1 },
+
+    { question: "15. De entre los siguientes, ¿qué software permite la monitorización de las infraestructuras de Tecnologías de la Información en una organización?", answers: ["Watch Now", "Perfect Viewer", "Nagios", "DAT Network Monitor"], correct: 2 },
+    
+    { question: "16. El PUE (Power Usage effectiveness) es una métrica que trata de determinar la eficiencia energética de un Centro de Proceso de Datos, y se define como el resultado de dividir:", answers: ["La potencia total consumida por el CPD por la potencia consumida en el equipamiento TI (servidores, equipos de comunicaciones, almacenamiento y otros)", "La potencia total consumida por el CPD por la potencia usada en el equipamiento no TI (climatización, distribución eléctrica, iluminación, etc)", "La potencia consumida por el equipamiento TI entre la consumida por el equipamiento no TI", "La potencia total consumida por el CPD por la potencia consumida en el equipamiento de cómputo (servidores), excluyendo equipos de comunicaciones y almacenamiento"], correct: 0 },
+    
+    { question: "17. Según la ANSI/TIA-942 el porcentaje de disponibilidad de 99.982% en un CPD corresponde a:", answers: ["TIER I", "TIER II", "TIER III", "TIER IV"], correct: 2 },
+    
+    { question: "18. El estándar ANSI/TIA-942 establece distintos niveles en relación a ciertos requisitos de seguridad en los Centros de Proceso de Datos (CPD). ¿Cuál es el nivel más exigente?", answers: ["Tier 5", "Tier 4", "Tier 3", "Tier 0"], correct: 1 }
 ];

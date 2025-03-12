@@ -36,5 +36,21 @@ const tema47 = [
     
     { question: "19. La técnica de llamadas a procedimientos remotos se conoce mediante las siglas:", answers: ["LLPR", "RPC", "RPR", "CPC"], correct: 1 },
     
-    { question: "20. Utilizando System Center 2012 Configuration Manager ¿es posible instalar y desinstalar software en ordenadores de manera remota?", answers: ["No, es una herramienta para administrar controladores de dominio.", "Sí.", "Sólo en servidores.", "Sólo instalar."], correct: 1 }
+    { question: "20. Utilizando System Center 2012 Configuration Manager ¿es posible instalar y desinstalar software en ordenadores de manera remota?", answers: ["No, es una herramienta para administrar controladores de dominio.", "Sí.", "Sólo en servidores.", "Sólo instalar."], correct: 1 },
+
+    { question: "21. Es una herramienta para virtualizar un equipo:", answers: ["Jaikoz", "Websphere", "Toad", "VirtualBox"], correct: 3 },
+    
+    { question: "22. Indique cuál de los siguientes es un documento mínimo reclamado por la ISO 22301 de gestión de la continuidad del negocio:", answers: ["Procedimiento para el control de la información documentada", "Estructura de respuesta a incidentes", "Los contratos y acuerdos de nivel de servicio con los proveedores", "Formación y plan de sensibilización"], correct: 1 },
+    
+    { question: "23. ¿Cuál de los siguientes procesos de ITIL se asocia a la fase de Operación del Servicio?", answers: ["Gestión de Problemas", "Gestión de Proveedores", "Gestión de la Disponibilidad", "Gestión de la Capacidad"], correct: 0 },
+    
+    { question: "24. ¿Qué secuencia de eventos es la correcta en ITIL?", answers: ["Incidente, Error Conocido, Problema, RFC", "Error Conocido, Incidente, Problema, RFC", "RFC, Incidente, Problema, Error Conocido", "Incidente, Problema, Error Conocido, RFC"], correct: 3 },
+    
+    { question: "25. EI Departamento de Redes de una organización que aplica ITIL ha llegado a un acuerdo con una organización extema. ¿Cuál de los siguientes documentos lo plasmará?", answers: ["OLA (Acuerdo de Nivel Operacional)", "SLA (Acuerdo de Nivel de Servicio)", "SLR (Service level Requierements)", "UC (Underpinning Contract)"], correct: 3 },
+    
+    { question: "26. ¿Cuál es la diferencia entre un Error Conocido y un problema según ITIL?", answers: ["En el caso de un Error Conocido se conoce la causa fundamental; en un Problema, no", "En el caso de un Error Conocido se trata de un error en la infraestructura de TI; en un Problema, no", "Un Error Conocido siempre se deriva de un Incidente; esto no siempre es el caso con un Problema", "En el caso de un Problema, los Elementos de Configuración implicados han sido identificados; este no es el caso de un Error Conocido"], correct: 0 },
+    
+    { question: "27. Una CMDB puede contener diferentes Elementos de Configuración (Cls). ¿Cual de estos elementos NO se considera normalmente un CI?", answers: ["Monitor", "Modem", "Número de serie", "Disco duro"], correct: 2 },
+    
+    { question: "28. ¿Qué significa y para que sirve la CMDB?", answers: ["Configuration Maintenance Database, se usa para registrar todo mantenimiento de elementos de configuración (CI's) y sus relaciones con otros elementos", "Continuity Management Database, se usa para registrar todos los detalles pertenecientes a la Gestión de Continuidad del Servicio IT", "Configuration Management Database, se usa para registrar toda la información relativa a elementos de configuración (CI's) y sus relaciones con otros elementos", "Continuity Maintenance Database, se usa para registrar toda la información relativa a Mantenimiento de Continuidad del Servicio IT, incluyendo mantenimiento preventivo"], correct: 2 },
 ];

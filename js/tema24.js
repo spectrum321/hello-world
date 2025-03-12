@@ -38,5 +38,11 @@ const tema24 = [
     
     { question: "19. ¿A qué hace referencia el modelo de 3 capas en el desarrollo de aplicaciones?", answers: ["A que la declaración de clases se realizará con al menos tres niveles de acceso diferenciados: clases públicas, clases privadas y clases protegidas.", "A que se establecerán tres jerarquías de herencia de clases, en la que partiendo de una clase raíz, existirán al menos hasta otras dos capas más de herencia.", "A que las aplicaciones se separarán en 3 capas, estableciendo una capa de Lógica de Presentación, una capa de Lógica de Negocio y una capa de Datos o de Persistencia.", "A que el procesamiento de documentos XML puede realizarse mediante un parser DOM (modelo de árbol), SAX (basado en eventos tipo push) o STAX (basado en eventos tipo pull)."], correct: 2 },
     
-    { question: "20. Para la implantación de una arquitectura Cliente/Servidor del tipo 'cliente fino - servidor grueso':", answers: ["Se necesitan un mínimo de 2 equipos si se utiliza el modelo de 2 capas.", "Se necesitan un mínimo de 3 equipos si se utiliza el modelo de 3 capas.", "Puede ser implantada en un único equipo.", "El cliente es el responsable del acceso a los datos físicos y de procesar la lógica de negocio."], correct: 2 }
+    { question: "20. Para la implantación de una arquitectura Cliente/Servidor del tipo 'cliente fino - servidor grueso':", answers: ["Se necesitan un mínimo de 2 equipos si se utiliza el modelo de 2 capas.", "Se necesitan un mínimo de 3 equipos si se utiliza el modelo de 3 capas.", "Puede ser implantada en un único equipo.", "El cliente es el responsable del acceso a los datos físicos y de procesar la lógica de negocio."], correct: 2 },
+    { question: "21. Una de las afirmaciones no es correcta. Las funciones que lleva a cabo el proceso cliente pueden resumirse en:", answers: ["Administrar la interfaz de usuario e interactuar con el usuario.", "Realizar validaciones locales.", "Generar requerimientos de bases de datos.", "Recibir resultados del servidor y presentarlos sin realizar ningún procesamiento."], correct: 3 },
+    
+    { question: "22. Señale cuál de las siguientes respuestas corresponde con un framework de desarrollo específico para la implementación de la lógica de negocio en una aplicación web multicapa:", answers: ["Qbates", "Mybatis", "Spring", "JSF"], correct: 2 },
+    
+    { question: "23. En las comunicaciones a través de sockets, ¿cuál de las siguientes NO se corresponde con una primitiva?", answers: ["Bind", "Listen", "Reject", "Socket"], correct: 2 }
 ];
+    
