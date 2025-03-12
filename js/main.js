@@ -5,14 +5,15 @@ let incorrectAnswers = [];
 let unansweredQuestions = [];
 let answeredIncorrectly = false;
 let answered = false;
+let testTitle = "";
 
  document.body.style.backgroundColor = "#ffffee"; // Color suave para la vista
 
 document.getElementById("answers").style.textAlign = "center"; // Centra las respuestas
-
+document.getElementById("test-title").classList.remove("hidden");
 function loadQuestions(category) {
     switch (category) {
-        case 'tema2':
+        case 'tema2': testTitle = 'TEST TEMA 2';
             quiz = tema2;
             break;
         case 'tema4':
@@ -107,18 +108,22 @@ function loadQuestions(category) {
            break;  
 		case 'tema48':
             quiz = tema48;
-           break; 		   
+           break; 	
+		case 'tema1opo':
+            quiz = tema1opo;
+           break; 			   
         case 'random':
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
 			 ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema41, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
-			 ...tema47, ...tema48].sort(() => Math.random() - 0.5).slice(0, 50);
+			 ...tema47, ...tema48, ...tema1opo].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
-        default:
-            quiz = [];
+            default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }
+           
     document.getElementById("categories").classList.add("hidden");
     document.getElementById("question").classList.remove("hidden");
     document.getElementById("answers").classList.remove("hidden");
+	document.getElementById("test-title").textContent = testTitle;
     incorrectAnswers = [];
     answeredIncorrectly = false;
     showQuestion();

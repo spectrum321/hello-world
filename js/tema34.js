@@ -1,5 +1,5 @@
 const tema34 = [
-       
+    
     { question: "01. En HTML, el tag <BODY>:", answers: ["Especifica todos los atributos de la página.", "Es un argumento que es obligatorio poner en mayúsculas dentro de la página.", "Determina si el cuerpo del documento o la página es accesible.", "Contiene el cuerpo del documento, o contenido de la página."], correct: 3 },
     
     { question: "02. En HTML, ¿qué atributo se emplea al crear vínculos dentro del propio documento (anclas)?", answers: ["anchor", "name", "href", "src"], correct: 1 },

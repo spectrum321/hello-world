@@ -2,7 +2,7 @@ const tema35 = [
        
     { question: "01. Cual de los siguientes documentos se utilizan para definir la estructura de un fichero XML:", answers: ["DTD y XML Schema.", "XML Schema y XPATH", "SAX y DOM", "DTD y XSLT."], correct: 0 },
     
-    { question: "02. Si un XSD define la siguiente cabecera: <xs:schema xmins:xs='http://www.w3.org/2001/XMLSchema' > ¿Cuál de los siguientes elementos NO podrías encontrar en dicho documento?", answers: ["<xs:all>", "<xs:union>", "<xs:intersection>", "<xs:group>"], correct: 2 },
+    { question: "02. Si un XSD define la siguiente cabecera: xs:schema xmins:xs=''http://www.w3.org/2001/XMLSchema''  ¿Cuál de los siguientes elementos NO podrías encontrar en dicho documento?", answers: ["xs:all", "xs:union", "xs:intersection", "xs:group"], correct: 2 },
     
     { question: "03. El lenguaje de consulta que nos proporciona los medios para extraer y manipular información en documentos o, de cualquier fuente de datos XML, y que utiliza expresiones XPath para acceder a determinadas partes del documento XML se denomina:", answers: ["X-Ask", "XInclude", "XLink", "XQuery"], correct: 3 },
     
@@ -18,7 +18,7 @@ const tema35 = [
     
     { question: "09. Señale que tecnología estandarizada por el W3C permite la extracción de datos desde documentos XML:", answers: ["XML MyQueryLang.", "XSQL Language.", "XML QueryDataSet.", "Xquery Language."], correct: 3 },
     
-    { question: "10. El lenguaje Voice XML se basa en un conjunto de etiquetas y una serie de textos que se utilizarán para síntesis de voz, en concreto la etiqueta utilizada para insertar el valor de una expresión en un prompt es:", answers: ["<field>", "<vprompt>", "<value>", "<param>"], correct: 2 },
+    { question: "10. El lenguaje Voice XML se basa en un conjunto de etiquetas y una serie de textos que se utilizarán para síntesis de voz, en concreto la etiqueta utilizada para insertar el valor de una expresión en un prompt es:", answers: ["<field>", "<vprompt>", "value", "<param>"], correct: 2 },
     
     { question: "11. Para clasificar un documento XML como \"bien formado\":", answers: ["Debe cumplir las especificaciones de la DTD que lo define", "Debe cumplir las especificaciones del XSD que lo define", "Debe cumplir las especificaciones del lenguaje respecto a las reglas sintácticas", "Se indica la versión de XML que se está empleando."], correct: 2 },
     
