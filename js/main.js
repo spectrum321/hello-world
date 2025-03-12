@@ -16,100 +16,100 @@ function loadQuestions(category) {
         case 'tema2': testTitle = 'TEST TEMA 2';
             quiz = tema2;
             break;
-        case 'tema4':
+        case 'tema4': testTitle = 'TEST TEMA 4';
             quiz = tema4;
             break;
-        case 'tema6':
+        case 'tema6': testTitle = 'TEST TEMA 6';
             quiz = tema6;
             break;
-		case 'tema7':
+		case 'tema7': testTitle = 'TEST TEMA 7';
             quiz = tema7;
             break;
-		case 'tema8':
+		case 'tema8': testTitle = 'TEST TEMA 8';
             quiz = tema8;
             break;
-		case 'tema9':
+		case 'tema9': testTitle = 'TEST TEMA 9';
             quiz = tema9;
             break;
-		case 'tema10':
+		case 'tema10': testTitle = 'TEST TEMA 10';
             quiz = tema10;
             break;
-		case 'tema11':
+		case 'tema11': testTitle = 'TEST TEMA 11';
             quiz = tema11;
             break;
-		case 'tema12':
+		case 'tema12': testTitle = 'TEST TEMA 12';
             quiz = tema12;
             break;
-		case 'tema13':
+		case 'tema13': testTitle = 'TEST TEMA 13';
             quiz = tema13;
             break;
-		case 'tema14':
+		case 'tema14': testTitle = 'TEST TEMA 14';
             quiz = tema14;
             break;
-		case 'tema15':
+		case 'tema15': testTitle = 'TEST TEMA 15';
             quiz = tema15;
             break;
-		case 'tema18':
+		case 'tema18': testTitle = 'TEST TEMA 18';
             quiz = tema18;
             break;
-		case 'tema19':
+		case 'tema19': testTitle = 'TEST TEMA 19';
             quiz = tema19;
             break;
-		case 'tema23':
+		case 'tema23': testTitle = 'TEST TEMA 23';
             quiz = tema23;
             break;
-		case 'tema24':
+		case 'tema24': testTitle = 'TEST TEMA 24';
             quiz = tema24;
             break;
-		case 'tema25':
+		case 'tema25': testTitle = 'TEST TEMA 25';
             quiz = tema25;
             break;
-		case 'tema31':
+		case 'tema31': testTitle = 'TEST TEMA 31';
             quiz = tema31;
             break;		
-		case 'tema33':
+		case 'tema33': testTitle = 'TEST TEMA 33';
             quiz = tema33;
             break;	
-		case 'tema34':
+		case 'tema34': testTitle = 'TEST TEMA 34';
             quiz = tema34;
             break;		
-		case 'tema35':
+		case 'tema35': testTitle = 'TEST TEMA 35';
             quiz = tema35;
             break;		
-		case 'tema36':
+		case 'tema36': testTitle = 'TEST TEMA 36';
             quiz = tema36;
             break;
-		case 'tema37':
+		case 'tema37': testTitle = 'TEST TEMA 37';
             quiz = tema37;
             break;				
-		case 'tema40':
+		case 'tema40': testTitle = 'TEST TEMA 40';
             quiz = tema40;
             break;
-		case 'tema41':
+		case 'tema41': testTitle = 'TEST TEMA 41';
             quiz = tema41;
            break;
-		case 'tema42':
+		case 'tema42': testTitle = 'TEST TEMA 42';
             quiz = tema42;
            break;
-		case 'tema43':
+		case 'tema43': testTitle = 'TEST TEMA 43';
             quiz = tema43;
            break;
-		case 'tema44':
+		case 'tema44': testTitle = 'TEST TEMA 44';
             quiz = tema44;
            break;
-		case 'tema45':
+		case 'tema45': testTitle = 'TEST TEMA 45';
             quiz = tema45;
            break;
-		case 'tema46':
+		case 'tema46': testTitle = 'TEST TEMA 46';
             quiz = tema46;
            break;
-		case 'tema47':
+		case 'tema47': testTitle = 'TEST TEMA 47';
             quiz = tema47;
            break;  
-		case 'tema48':
+		case 'tema48': testTitle = 'TEST TEMA 48';
             quiz = tema48;
            break; 	
-		case 'tema1opo':
+		case 'tema1opo': testTitle = 'TEST TEMA 1 OPO';
             quiz = tema1opo;
            break; 			   
         case 'random':
