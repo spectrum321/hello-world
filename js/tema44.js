@@ -142,37 +142,6 @@ const tema44 = [
     
     { question: "71. La vulnerabilidad conocida como heartbleed afecta a:", answers: ["el servidor de páginas web Apache Webserver", "el intérprete de tipo shell en Unix llamado Bash", "al software criptográfico OpenSSL", "servidores de bases de datos Microsoft SQL Server"], correct: 2 },
     
-    { question: "72. ¿A qué ámbito de la seguridad afecta un ataque realizado con un sniffer?", answers: ["Integridad", "Disponibilidad", "Autenticación", "Confidencialidad"], correct: 3 },
+    { question: "72. ¿A qué ámbito de la seguridad afecta un ataque realizado con un sniffer?", answers: ["Integridad", "Disponibilidad", "Autenticación", "Confidencialidad"], correct: 3 }
 
-    { question: "01. ¿Con qué tipo de mecanismo de seguridad se corresponde un análisis forense?", answers: ["De recuperación.", "De detección.", "De prevención.", "De disponibilidad."], correct: 0 },
-    
-    { question: "02. El ataque informático denominado \"pharming\" consiste en:", answers: ["Capturar todas las pulsaciones de teclado para averiguar datos sensibles.", "Realizar copias de sí mismo con el objetivo de colapsar un ordenador.", "Mandar correos electrónicos con contenido falso para promover el envío de forma encadenada a otros usuarios.", "Mediante la modificación en el DNS, enviar al usuario a una web falsa."], correct: 3 },
-    
-    { question: "03. De entre los siguientes, ¿qué nivel de RAID utiliza el denominado \"disk mirroring\" como mecanismo de tolerancia a fallos?", answers: ["RAID 0", "RAID 1", "RAID 5", "RAID 6"], correct: 1 },
-    
-    { question: "04. En el ámbito de la seguridad informática, Hoax es un mensaje:", answers: ["inofensivo, normalmente distribuido por correo electrónico, que alerta de un problema informático que realmente no existe para causar, mediante una serie de instrucciones, problemas en el sistema.", "normalmente distribuido por correo electrónico, de un destino aparentemente de confianza con la intención de engañar al usuario para que facilite datos personales, bancarios, contraseñas...", "distribuido por correo electrónico, que contiene un fichero adjunto que, una vez descargado y ejecutado se replica e infecta rápidamente la red, reenviándose a la lista de contactos de la víctima.", "distribuido por correo electrónico, que contiene publicidad no solicitada."], correct: 0 },
-    
-    { question: "05. Cuando hablamos de IronPort o Sophos nos estamos refiriendo a:", answers: ["Protección de sistemas de correo electrónico.", "Distribuciones Linux.", "Servidores de video streaming.", "Sistemas de seguridad para domótica."], correct: 0 },
-    
-    { question: "06. En una arquitectura de red, un firewall o cortafuegos:", answers: ["Es un elemento de seguridad perimetral.", "Es un dispositivo físico de seguridad que previene tanto de ataques externos como de amenazas internas.", "En su definición más básica, es un mecanismo de seguridad software basado en los estándares ACL (Access Control List) destinado a canalizar el tráfico entrante en una red.", "Es un dispositivo de seguridad centrado en el nivel 4 del modelo OSI (filtrado de paquetes IP)."], correct: 0 },
-    
-    { question: "07. Se conoce como \"Gestión Unificada de Amenazas (UTM)\" a:", answers: ["Un dispositivo único que integra diferentes soluciones de seguridad perimetral", "El equipo de técnicos expertos coordinados bajo el responsable de seguridad de un organismo, empresa o institución.", "El conjunto de procedimientos de seguridad TIC dentro de un plan general de contingencias", "En MAGERIT, los mecanismos para evaluar el riesgo sobre los activos y aplicar las adecuadas salvaguardas"], correct: 0 },
-    
-    { question: "08. En el análisis algorítmico descrito en la guía de técnicas de Magerit v3, el coeficiente denominado \"grado de dependencia\", es un coeficiente aplicado a las dependencias entre:", answers: ["activos en el modelo cualitativo, que varía entre 0,0 (activos independientes) y 1,0 (activos con dependencia absoluta).", "activos en el modelo cuantitativo, que varía entre 0,0 (activos independientes) y 1,0 (activos con dependencia absoluta).", "activos en el modelo cualitativo, que varía entre 0,0 (activos con dependencia absoluta) y 1,0 (activos independientes).", "activos en el modelo cuantitativo, que varía entre 0,0 (activos con dependencia absoluta) y 1,0 (activos independientes)."], correct: 1 },
-    
-    { question: "09. ¿Qué es la esteganografía?", answers: ["Es equivalente al cifrado, especialmente en imágenes digitales, audio, ficheros y video digital.", "Es un tipo de troyano.", "Actualmente no se utiliza para el envío de información.", "Es el envío de un mensaje oculto, especialmente en imágenes digitales, audio, ficheros y video digital."], correct: 3 },
-    
-    { question: "10. Según Magerit v2, quien NO es un participante en un proyecto de análisis y gestión de riesgos:", answers: ["Comité de Gestión.", "Grupos de Interlocutores.", "Comité de Seguimiento.", "Equipo de Proyecto."], correct: 0 },
-    
-    { question: "11. Según Magerit v2 cuál de las siguientes tareas NO forma parte de la actividad de caracterización de los activos en el Análisis de Riesgos:", answers: ["Identificación de los activos.", "Dependencias entre activos.", "Auditoría de los activos.", "Valoración de los activos."], correct: 2 },
-    
-    { question: "12. En el contexto de la seguridad, el shoulder surfing consiste en:", answers: ["Espiar a los usuarios modificando los navegadores web para obtener sus claves de acceso.", "Uso de aplicaciones intermedias llamadas shoulders para la obtención de los datos de navegación.", "Espiar físicamente a los usuarios, para obtener generalmente claves de acceso al sistema.", "Es un sinónimo del ataque man in the middle"], correct: 2 },
-    
-    { question: "13. Indique la sentencia correcta respecto al análisis del factor dolor (Pain Value Analysis), es una técnica:", answers: ["Para ayudar a identificar el impacto en el negocio de uno o más problemas.", "Para calcular el límite máximo de usuarios que el sistema es capaz de gestionar, teniendo en cuenta la capacidad del hardware y el número de peticiones de cada usuario.", "Para la asignación de prioridades a diferentes actividades, dice que el 80% del valor de una actividad es generado por el 20% del esfuerzo.", "Acuñada en los años 80, cuya finalidad era calcular la capacidad física de los usuarios del sistema informático."], correct: 0 },
-    
-    { question: "14. En el contexto de copias de seguridad o respaldo, un TMS es acrónimo de:", answers: ["Tape Management System.", "Transaction Multiplexing System.", "Tape Mapping System.", "Transaction Management System."], correct: 0 },
-    
-    { question: "15. ¿Cuál es el máximo porcentaje de disco desaprovechado para el almacenamiento efectivo de datos en un array de discos configurado en RAID 5 (suponiendo que todos los discos tienen la misma capacidad)?", answers: ["33%", "20%", "50%", "0%"], correct: 0 },
-    
-    { question: "16. Un ataque ARP Spoonfing consiste en:", answers: ["hace que un equipo crea que la MAC de una IP local es la de otro equipo de la misma red", "hacer que un equipo crea que la dirección IP de una MAC loca es la de otro equipo de la misma red", "inundar de paquetes a un equipo", "ninguna de las anteriores es correcta"], correct: 0 }
 ];

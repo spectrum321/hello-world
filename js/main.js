@@ -40,6 +40,9 @@ function loadQuestions(category) {
 		case 'tema12': testTitle = 'TEST TEMA 12';
             quiz = tema12;
             break;
+		case 'tema1202': testTitle = 'TEST TEMA 12-02';
+            quiz = tema1202;
+            break;
 		case 'tema13': testTitle = 'TEST TEMA 13';
             quiz = tema13;
             break;
@@ -52,8 +55,14 @@ function loadQuestions(category) {
 		case 'tema18': testTitle = 'TEST TEMA 18';
             quiz = tema18;
             break;
+		case 'tema1802': testTitle = 'TEST TEMA 18-2';
+            quiz = tema1802;
+            break;
 		case 'tema19': testTitle = 'TEST TEMA 19';
             quiz = tema19;
+            break;
+		case 'tema1902': testTitle = 'TEST TEMA 19-2';
+            quiz = tema1902;
             break;
 		case 'tema23': testTitle = 'TEST TEMA 23';
             quiz = tema23;
@@ -63,6 +72,9 @@ function loadQuestions(category) {
             break;
 		case 'tema25': testTitle = 'TEST TEMA 25';
             quiz = tema25;
+            break;
+		case 'tema2502': testTitle = 'TEST TEMA 25-2';
+            quiz = tema2502;
             break;
 		case 'tema31': testTitle = 'TEST TEMA 31';
             quiz = tema31;
@@ -79,9 +91,15 @@ function loadQuestions(category) {
 		case 'tema36': testTitle = 'TEST TEMA 36';
             quiz = tema36;
             break;
+		case 'tema3602': testTitle = 'TEST TEMA 36-2';
+            quiz = tema3602;
+            break;
 		case 'tema37': testTitle = 'TEST TEMA 37';
             quiz = tema37;
             break;				
+		case 'tema3702': testTitle = 'TEST TEMA 37-2';
+            quiz = tema3702;
+            break;
 		case 'tema40': testTitle = 'TEST TEMA 40';
             quiz = tema40;
             break;
@@ -94,11 +112,20 @@ function loadQuestions(category) {
 		case 'tema42': testTitle = 'TEST TEMA 42';
             quiz = tema42;
            break;
+		case 'tema4202': testTitle = 'TEST TEMA 42-2';
+            quiz = tema4202;
+           break;
 		case 'tema43': testTitle = 'TEST TEMA 43';
             quiz = tema43;
            break;
+		case 'tema4302': testTitle = 'TEST TEMA 43-2';
+            quiz = tema4302;
+           break;
 		case 'tema44': testTitle = 'TEST TEMA 44';
             quiz = tema44;
+           break;
+		case 'tema4402': testTitle = 'TEST TEMA 44-2';
+            quiz = tema4402;
            break;
 		case 'tema45': testTitle = 'TEST TEMA 45';
             quiz = tema45;
@@ -112,16 +139,22 @@ function loadQuestions(category) {
 		case 'tema48': testTitle = 'TEST TEMA 48';
             quiz = tema48;
            break; 	
+		case 'tema4802': testTitle = 'TEST TEMA 48-2';
+            quiz = tema4802;
+           break;
 		case 'tema1opo': testTitle = 'TEST TEMA 1 OPO';
             quiz = tema1opo;
            break; 
 		case 'tema2opo': testTitle = 'TEST TEMA 2 OPO';
             quiz = tema2opo;
-           break; 		   
+           break; 
+		case 'tai2024': testTitle = 'TEST TAI 2024';
+            quiz = tai2024;
+           break;		   
         case 'random':
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
 			 ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema41, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
-			 ...tema47, ...tema48, ...tema1opo, ...tema2opo].sort(() => Math.random() - 0.5).slice(0, 50);
+			 ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tai2024].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
             default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }
