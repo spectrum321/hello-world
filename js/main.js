@@ -148,6 +148,9 @@ function loadQuestions(category) {
 		case 'tema2opo': testTitle = 'TEST TEMA 2 OPO';
             quiz = tema2opo;
            break; 
+		case 'tema3opo': testTitle = 'TEST TEMA 3 OPO';
+            quiz = tema3opo;
+           break; 
 		case 'tai2024': testTitle = 'TEST TAI 2024';
             quiz = tai2024;
            break;		   
