@@ -62,6 +62,10 @@ const tema37 = [
     
     { question: "31. La arquitectura de la red UMTS está formada por varios elementos, cada uno con unas funciones específicas. Elija la afirmación correcta entre las siguientes relativas a la arquitectura UMTS:", answers: ["El RNS (Radio Network Subsystem) está formado por los RNC (Radio Network Controller), el MSC (Mobile Switching Center) y los Nodos B.", "El Nodo B es el responsable de la transmisión radio desde los RNC (Radio Network Controller) hacia los MSs (Mobile Station) en una o más celdas UMTS.", "El VLR (Visitor Location Register) mantiene una base de datos con los datos de los abonados móviles, para poder realizar la autenticación del abonado y cifrar las comunicaciones.", "El UELC (User Equipment Location Controller) es el encargado de llevar a cabo las funciones de itinerancia (roaming) de las MSs (Mobile Station) en un área MSC (Mobile Switching Center)."], correct: 1 },
     
-    { question: "32. ¿Qué banda de frecuencia se destina con carácter preferente al sistema digital europeo de telecomunicaciones sin cordón (DECT), según el Cuadro Nacional de Atribuciones de Frecuencia?", answers: ["1850-1900 MHz", "1860-1900 MHz", "1870-1900 MHz", "1880-1900 MHz"], correct: 3 }
+    { question: "32. ¿Qué banda de frecuencia se destina con carácter preferente al sistema digital europeo de telecomunicaciones sin cordón (DECT), según el Cuadro Nacional de Atribuciones de Frecuencia?", answers: ["1850-1900 MHz", "1860-1900 MHz", "1870-1900 MHz", "1880-1900 MHz"], correct: 3 },
+	
+	{ question: "33. ¿A qué generación pertenece LTE?", answers: ["2G", "3G", "5G", "4G"], correct: 3 },
+	
+	{ question: "34. ¿A qué generación pertenece mmWave?", answers: ["2G", "3G", "5G", "4G"], correct: 2 }
 ];
 
