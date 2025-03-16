@@ -46,7 +46,7 @@ const tema47 = [
     
     { question: "24. ¿Qué secuencia de eventos es la correcta en ITIL?", answers: ["Incidente, Error Conocido, Problema, RFC", "Error Conocido, Incidente, Problema, RFC", "RFC, Incidente, Problema, Error Conocido", "Incidente, Problema, Error Conocido, RFC"], correct: 3 },
     
-    { question: "25. EI Departamento de Redes de una organización que aplica ITIL ha llegado a un acuerdo con una organización extema. ¿Cuál de los siguientes documentos lo plasmará?", answers: ["OLA (Acuerdo de Nivel Operacional)", "SLA (Acuerdo de Nivel de Servicio)", "SLR (Service level Requierements)", "UC (Underpinning Contract)"], correct: 3 },
+    { question: "25. EI Departamento de Redes de una organización que aplica ITIL ha llegado a un acuerdo con una organización externa. ¿Cuál de los siguientes documentos lo plasmará?", answers: ["OLA (Acuerdo de Nivel Operacional)", "SLA (Acuerdo de Nivel de Servicio)", "SLR (Service level Requierements)", "UC (Underpinning Contract)"], correct: 3 },
     
     { question: "26. ¿Cuál es la diferencia entre un Error Conocido y un problema según ITIL?", answers: ["En el caso de un Error Conocido se conoce la causa fundamental; en un Problema, no", "En el caso de un Error Conocido se trata de un error en la infraestructura de TI; en un Problema, no", "Un Error Conocido siempre se deriva de un Incidente; esto no siempre es el caso con un Problema", "En el caso de un Problema, los Elementos de Configuración implicados han sido identificados; este no es el caso de un Error Conocido"], correct: 0 },
     
