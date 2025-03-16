@@ -14,7 +14,7 @@ const tema46 = [
     
     { question: "07. Ante un posible desastre, ¿qué método de comunicación entre CPD's ofrece una respuesta más rápida y fiable?", answers: ["Copia síncrona.", "Copia asíncrona.", "Copia ''en caliente''.", "Copia continua."], correct: 0 },
     
-    { question: "08. En el CPD de una nueva sede de nuestro organismo, que va a entrar en funcionamiento en próximas semanas, tenemos 5 equipos con una potencia de 220W cada uno, teniendo en cuenta que disponemos de un SAl de 1000VA, ¿cuántos equipos como máximo podré conectar a nuestro SAl para un funcionamiento normal teniendo en cuenta que el cos(<p)=0,75?:", answers: ["2 equipos", "3 equipos", "4 equipos", "5 equipos"], correct: 1 },
+    { question: "08. En el CPD de una nueva sede de nuestro organismo, que va a entrar en funcionamiento en próximas semanas, tenemos 5 equipos con una potencia de 220W cada uno, teniendo en cuenta que disponemos de un SAl de 1000VA, ¿cuántos equipos como máximo podré conectar a nuestro SAl para un funcionamiento normal teniendo en cuenta que el cos menor p=0,75?:", answers: ["2 equipos", "3 equipos", "4 equipos", "5 equipos"], correct: 1 },
     
     { question: "09. Se le solicita que elija un tipo de SAl de los siguientes, sin embargo usted sabe que uno de ellos no existe, indique cuál.", answers: ["Off Line.", "Line Interactive.", "Line Balance.", "On-Line Doble Conversión."], correct: 2 },
     
