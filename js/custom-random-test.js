@@ -164,12 +164,15 @@ function loadQuestions(category) {
            break; 
         case 'tai2024': testTitle = 'TEST TAI 2024';
             quiz = tai2024;
-           break;           
+           break;     
+		case 'tailibre2024': testTitle = 'TEST TAI LIBRE 2024';
+            quiz = tailibre2024;
+           break;  		   
         case 'random':
             testTitle = 'TEST ALEATORIO';
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
              ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema41, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
-             ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tai2024].sort(() => Math.random() - 0.5).slice(0, 50);
+             ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tai2024, ...tailibre2024].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
         default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }
@@ -383,7 +386,8 @@ function createRandomTestSelector() {
         {id: 'tema1opo', name: 'Tema 1 OPO - Informática básica'},
         {id: 'tema2opo', name: 'Tema 2 OPO - Sistemas operativos'},
         {id: 'tema3opo', name: 'Tema 3 OPO - Aplicaciones web'},
-        {id: 'tai2024', name: 'TAI 2024'}
+        {id: 'tai2024', name: 'TAI 2024'},
+		{id: 'tailibre2024', name: 'TAI LIBRE 2024'}
     ];
     
     // Botón para seleccionar/deseleccionar todos

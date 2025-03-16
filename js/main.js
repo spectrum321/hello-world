@@ -153,6 +153,9 @@ function loadQuestions(category) {
            break; 
 		case 'tai2024': testTitle = 'TEST TAI 2024';
             quiz = tai2024;
+           break;	
+		case 'tailibre2024': testTitle = 'TEST TAI LIBRE 2024';
+            quiz = tailibre2024;
            break;		   
         case 'random':
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
