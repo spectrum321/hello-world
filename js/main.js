@@ -151,6 +151,9 @@ function loadQuestions(category) {
 		case 'tema3opo': testTitle = 'TEST TEMA 3 OPO';
             quiz = tema3opo;
            break; 
+		case 'tema4opo': testTitle = 'TEST TEMA 4 OPO';
+            quiz = tema3opo;
+           break;
 		case 'tai2024': testTitle = 'TEST TAI 2024';
             quiz = tai2024;
            break;	
@@ -160,7 +163,7 @@ function loadQuestions(category) {
         case 'random':
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
 			 ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema41, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
-			 ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tai2024].sort(() => Math.random() - 0.5).slice(0, 50);
+			 ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tema3opo, ...tema4opo, ...tai2024].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
             default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }
@@ -219,7 +222,7 @@ function exitQuiz() {
         location.reload(); // Recarga la página para volver al inicio
     }
 }
-function checkAnswer(button, index) {
+/* function checkAnswer(button, index) {
     answered = true;
     if (index === quiz[currentQuestion].correct) {
         button.style.backgroundColor = "lightgreen";
@@ -228,6 +231,20 @@ function checkAnswer(button, index) {
         }
     } else {
         button.style.backgroundColor = "lightcoral";
+        incorrectAnswers.push(currentQuestion);
+        answeredIncorrectly = true;
+    }
+} */
+
+function checkAnswer(button, index) {
+    answered = true;
+    if (index === quiz[currentQuestion].correct) {
+        button.classList.add("correct");  // Usar clase CSS en lugar de estilo directo
+        if (!answeredIncorrectly) {
+            score++;
+        }
+    } else {
+        button.classList.add("incorrect");  // Usar clase CSS en lugar de estilo directo
         incorrectAnswers.push(currentQuestion);
         answeredIncorrectly = true;
     }

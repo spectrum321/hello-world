@@ -162,6 +162,9 @@ function loadQuestions(category) {
         case 'tema3opo': testTitle = 'TEST TEMA 3 OPO';
             quiz = tema3opo;
            break; 
+		case 'tema4opo': testTitle = 'TEST TEMA 4 OPO';
+            quiz = tema4opo;
+           break;
         case 'tai2024': testTitle = 'TEST TAI 2024';
             quiz = tai2024;
            break;     
@@ -172,7 +175,7 @@ function loadQuestions(category) {
             testTitle = 'TEST ALEATORIO';
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
              ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema41, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
-             ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tai2024, ...tailibre2024].sort(() => Math.random() - 0.5).slice(0, 50);
+             ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tema3opo, ...tema4opo, ...tai2024, ...tailibre2024].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
         default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }
@@ -386,6 +389,7 @@ function createRandomTestSelector() {
         {id: 'tema1opo', name: 'Tema 1 OPO - Informática básica'},
         {id: 'tema2opo', name: 'Tema 2 OPO - Sistemas operativos'},
         {id: 'tema3opo', name: 'Tema 3 OPO - Aplicaciones web'},
+		{id: 'tema4opo', name: 'Tema 4 OPO - Administracion base de datos'},
         {id: 'tai2024', name: 'TAI 2024'},
 		{id: 'tailibre2024', name: 'TAI LIBRE 2024'}
     ];
@@ -560,6 +564,7 @@ function generateCustomTest() {
             case 'tema1opo': allQuestions = allQuestions.concat(tema1opo); break;
             case 'tema2opo': allQuestions = allQuestions.concat(tema2opo); break;
             case 'tema3opo': allQuestions = allQuestions.concat(tema3opo); break;
+			case 'tema4opo': allQuestions = allQuestions.concat(tema4opo); break;
             case 'tai2024': allQuestions = allQuestions.concat(tai2024); break;
         }
     });
