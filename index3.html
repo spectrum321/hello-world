@@ -69,7 +69,7 @@
             color: #ff6b6b;
         }
         
-        /* Estilos para el botón de modo oscuro */
+        /* Estilos para el botón de modo oscuro - Modificado para móviles */
         .theme-toggle {
             position: fixed;
             top: 10px;
@@ -88,6 +88,22 @@
             color: #f0f0f0;
             border-color: #444;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        /* Media query para dispositivos móviles */
+        @media (max-width: 768px) {
+            .theme-toggle {
+                position: fixed; /* Mantenerlo fijo en la pantalla */
+                top: 10px;
+                right: 10px;
+                font-size: 14px; /* Texto ligeramente más pequeño en móviles */
+                padding: 6px 10px; /* Botón ligeramente más pequeño */
+            }
+            
+            /* Añadir margen superior al contenedor para evitar que el botón lo tape */
+            .quiz-container {
+                margin-top: 50px;
+            }
         }
     </style>
 </head>
@@ -144,6 +160,7 @@
             <button onclick="loadQuestions('tema1opo')">TEST TEMA 1 OPO.Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema de información. Características y funciones. Arquitectura de ordenadores.Componentes internos de los equipos microinformáticos.</button>
             <button onclick="loadQuestions('tema2opo')">TEST TEMA 2 OPO.Sistemas operativos. Características y elementos constitutivos. Sistemas Windows. Sistemas Unix y Linux. Sistemas operativos para dispositivos móviles.</button>
             <button onclick="loadQuestions('tema3opo')">TEST TEMA 3 OPO.Aplicaciones web. Desarrollo web front-end y en servidor, multiplataforma y multidispositivo.Lenguajes: HTML, XML y sus derivaciones. Navegadores y lenguajes de programación web.Lenguajes de script.</button>
+			<button onclick="loadQuestions('tema4opo')">TEMA 4 OPO - Administración de bases de datos. Sistemas de almacenamiento y su virtualización.</button>
             <button onclick="loadQuestions('tai2024')">TEST TAI2024</button>
             <button onclick="loadQuestions('tailibre2024')">TEST TAI LIBRE 2024</button>
             <button onclick="loadQuestions('random')">Preguntas Aleatorias</button>
@@ -201,6 +218,7 @@
     <script src="js/tema1opo.js"></script>
     <script src="js/tema2opo.js"></script>
     <script src="js/tema3opo.js"></script>
+	<script src="js/tema4opo.js"></script>
     <script src="js/tai2024.js"></script>
     <script src="js/tailibre2024.js"></script>
     <script src="js/main.js"></script>
