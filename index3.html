@@ -12,6 +12,7 @@
             transition: background-color 0.3s, color 0.3s;
             background-color: #efefef;
             color: #333;
+            padding-top: 40px; /* Espacio para el botón fijo */
         }
         .quiz-container { 
             max-width: 400px; 
@@ -21,7 +22,6 @@
             border-radius: 10px; 
             transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
             background-color: #ffffee;
-           
         }
         .hidden { display: none; }
         button { 
@@ -69,46 +69,66 @@
             color: #ff6b6b;
         }
         
-        /* Estilos para el botón de modo oscuro - Modificado para móviles */
-        .theme-toggle {
+        /* Estilos para el botón de modo oscuro - Versión realmente fija */
+        #theme-toggle-wrapper {
             position: fixed;
-            top: 10px;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 0;
+            background-color: #efefef;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+        
+        body.dark-mode #theme-toggle-wrapper {
+            background-color: #000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        .theme-toggle {
+            position: absolute;
+            top: 50%;
             right: 10px;
-            padding: 8px 12px;
+            transform: translateY(-50%);
+            padding: 6px 10px;
             background-color: #f0f0f0;
             border: 1px solid #ccc;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s, color 0.3s;
-            z-index: 1000;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1001;
+            margin-top: 0 !important; /* Sobrescribe el margen-top de los botones */
         }
+        
         body.dark-mode .theme-toggle {
             background-color: #333;
             color: #f0f0f0;
             border-color: #444;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
         }
         
-        /* Media query para dispositivos móviles */
+        /* Estilos responsivos */
         @media (max-width: 768px) {
-            .theme-toggle {
-                position: fixed; /* Mantenerlo fijo en la pantalla */
-                top: 10px;
-                right: 10px;
-                font-size: 14px; /* Texto ligeramente más pequeño en móviles */
-                padding: 6px 10px; /* Botón ligeramente más pequeño */
+            body {
+                padding-top: 36px; /* Ligeramente menor para móviles */
             }
             
-            /* Añadir margen superior al contenedor para evitar que el botón lo tape */
-            .quiz-container {
-                margin-top: 50px;
+            #theme-toggle-wrapper {
+                padding: 8px 0;
+            }
+            
+            .theme-toggle {
+                font-size: 14px;
+                padding: 4px 8px;
             }
         }
     </style>
 </head>
 <body>
-    <button id="theme-toggle" class="theme-toggle">☀️ Modo Claro</button>
+    <div id="theme-toggle-wrapper">
+        <button id="theme-toggle" class="theme-toggle">☀️ Modo Claro</button>
+    </div>
 
     <div class="quiz-container">
         <h2>Test Informática</h2>
