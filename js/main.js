@@ -152,7 +152,25 @@ function loadQuestions(category) {
             quiz = tema3opo;
            break; 
 		case 'tema4opo': testTitle = 'TEST TEMA 4 OPO';
-            quiz = tema3opo;
+            quiz = tema4opo;
+           break;		   
+        case 'tema5opo': testTitle = 'TEST TEMA 5 OPO';
+            quiz = tema5opo;
+           break; 
+        case 'tema6opo': testTitle = 'TEST TEMA 6 OPO';
+            quiz = tema6opo;
+           break; 
+        case 'tema7opo': testTitle = 'TEST TEMA 7 OPO';
+            quiz = tema7opo;
+           break; 
+		case 'tema8opo': testTitle = 'TEST TEMA 8 OPO';
+            quiz = tema8opo;
+           break;
+        case 'tema9opo': testTitle = 'TEST TEMA 9 OPO';
+            quiz = tema9opo;
+           break; 
+		case 'tema10opo': testTitle = 'TEST TEMA 10 OPO';
+            quiz = tema10opo;
            break;
 		case 'tai2024': testTitle = 'TEST TAI 2024';
             quiz = tai2024;
@@ -163,7 +181,7 @@ function loadQuestions(category) {
         case 'random':
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
 			 ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema41, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
-			 ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tema3opo, ...tema4opo, ...tai2024].sort(() => Math.random() - 0.5).slice(0, 50);
+			 ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tema3opo, ...tema4opo, ...tema5opo, ...tema6opo, ...tema7opo, ...tema8opo, ...tema9opo, ...tema10opo, ...tai2024, ...tailibre2024].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
             default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }
