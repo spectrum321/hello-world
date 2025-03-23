@@ -188,12 +188,16 @@ function loadQuestions(category) {
            break;     
 		case 'tailibre2024': testTitle = 'TEST TAI LIBRE 2024';
             quiz = tailibre2024;
-           break;  		   
+           break;  		
+		case 'tailibre2023': testTitle = 'TEST TAI LIBRE 2023';
+            quiz = tailibre2023;
+           break;		   
         case 'random':
             testTitle = 'TEST ALEATORIO';
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
              ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
-             ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tema3opo, ...tema4opo, ...tema5opo, ...tema6opo, ...tema7opo, ...tema8opo, ...tema9opo, ...tema10opo, ...tai2024, ...tailibre2024].sort(() => Math.random() - 0.5).slice(0, 50);
+             ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tema3opo, ...tema4opo, ...tema5opo, ...tema6opo, ...tema7opo, ...tema8opo, ...tema9opo, ...tema10opo, ...tai2024,
+			 ...tailibre2024, ...tailibre2023].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
         default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }
@@ -415,7 +419,8 @@ function createRandomTestSelector() {
         {id: 'tema9opo', name: 'Tema 9 OPO - Seguridad y protección en redes de comunicaciones'},
 		{id: 'tema10opo', name: 'Tema 10 OPO - Sistemas de Almacenamiento de Altas Prestaciones'},
         {id: 'tai2024', name: 'TAI 2024'},
-		{id: 'tailibre2024', name: 'TAI LIBRE 2024'}
+		{id: 'tailibre2024', name: 'TAI LIBRE 2024'},
+		{id: 'tailibre2023', name: 'TAI LIBRE 2023'}
     ];
     
     // Botón para seleccionar/deseleccionar todos
@@ -596,7 +601,8 @@ function generateCustomTest() {
             case 'tema9opo': allQuestions = allQuestions.concat(tema9opo); break;
 			case 'tema10opo': allQuestions = allQuestions.concat(tema10opo); break;
             case 'tai2024': allQuestions = allQuestions.concat(tai2024); break;
-			case 'tai2024': allQuestions = allQuestions.concat(tailibre2024); break;
+			case 'tailibre2024': allQuestions = allQuestions.concat(tailibre2024); break;
+			case 'tailibre2023': allQuestions = allQuestions.concat(tailibre2023); break;
         }
     });
     
