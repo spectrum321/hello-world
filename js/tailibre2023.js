@@ -1,12 +1,12 @@
 const tailibre2023 = [
     
-    { question: "12. De acuerdo con el artículo 4 de la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza, el periodo de vigencia de los certificados cualificados:", answers: ["No será superior a 5 años.", "No será superior a 3 años.", "Es ilimitado.", "No será superior a 6 años."], correct: 0 },
+    { question: "12. El periodo de vigencia de los certificados cualificados:", answers: ["No será superior a 5 años.", "No será superior a 3 años.", "Es ilimitado.", "No será superior a 6 años."], correct: 0 },
     
-    { question: "13. Indique según el título X de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de los siguientes NO es un derecho digital?", answers: ["Derecho al testamento digital.", "Derecho al olvido en servicios de redes sociales y servicios equivalentes.", "Derecho a la desconexión digital en el ámbito laboral.", "Derecho a la igualdad y a la no discriminación en el entorno digital."], correct: 3 },
+    { question: "13. ¿Cuál de los siguientes NO es un derecho digital?", answers: ["Derecho al testamento digital.", "Derecho al olvido en servicios de redes sociales y servicios equivalentes.", "Derecho a la desconexión digital en el ámbito laboral.", "Derecho a la igualdad y a la no discriminación en el entorno digital."], correct: 3 },
     
-    { question: "14. Según establece el artículo 34 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, los responsables y encargados de tratamiento comunicarán a la Agencia Española de Protección de Datos, las designaciones, nombramientos y ceses de los delegados de protección de datos en el plazo de:", answers: ["10 días.", "15 días.", "1 mes.", "3 meses."], correct: 0 },
+ //   { question: "14. Según establece el artículo 34 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, los responsables y encargados de tratamiento comunicarán a la Agencia Española de Protección de Datos, las designaciones, nombramientos y ceses de los delegados de protección de datos en el plazo de:", answers: ["10 días.", "15 días.", "1 mes.", "3 meses."], correct: 0 },
     
-    { question: "15. Según el Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad, ¿cuál de las siguientes medidas de seguridad afecta a la dimensión de Confidencialidad?", answers: ["Bloqueo de puesto de trabajo.", "Firma electrónica.", "Registro de la actividad.", "Criptografía."], correct: 3 },
+    { question: "15. ¿Cuál de las siguientes medidas de seguridad afecta a la dimensión de Confidencialidad?", answers: ["Bloqueo de puesto de trabajo.", "Firma electrónica.", "Registro de la actividad.", "Criptografía."], correct: 3 },
     
     { question: "16. Señale la respuesta correcta sobre lo que establece la Norma Técnica de Interoperabilidad de Protocolos de Intermediación de Datos:", answers: ["Las tecnologías utilizadas para los intercambios se implementarán en base a estándares según lo establecido en la Norma Técnica de Interoperabilidad de Catálogo de estándares.", "De forma general en servicios de intercambio se utilizará la versión 2.0 del protocolo SCSP (Sustitución de Certificados en Soporte Papel).", "Emisores y Requirentes no mantendrán trazabilidad de los intercambios de datos producidos.", "Los intercambios de información se podrán implementar a través de servicios web."], correct: 3 },
     
@@ -32,11 +32,11 @@ const tailibre2023 = [
     
     { question: "28. Respecto a la norma USB indique la respuesta INCORRECTA:", answers: ["USB Type-C es lo mismo que USB 3.1", "La diferencia entre USB 3.1 Gen 1 y USB 3.1 Gen 2 se reduce solamente a la velocidad.", "USB 3.2 permite velocidades de hasta 20 Gbps.", "Los dispositivos USB 2.0 pueden lograr una velocidad de transferencia máxima hasta de 480 Mbps."], correct: 0 },
     
-    { question: "29. En teoría de grafos, el algoritmo para la determinación del camino más corto, dado un vértice origen, hacia el resto de los vértices en un grafo que tiene pesos en cada arista se denomina:", answers: ["Algoritmo de Kruskal.", "Algoritmo de Prim.", "Algoritmo de Dijkstra.", "Algoritmo de Floyd-Warshall."], correct: 2 },
+   // { question: "29. En teoría de grafos, el algoritmo para la determinación del camino más corto, dado un vértice origen, hacia el resto de los vértices en un grafo que tiene pesos en cada arista se denomina:", answers: ["Algoritmo de Kruskal.", "Algoritmo de Prim.", "Algoritmo de Dijkstra.", "Algoritmo de Floyd-Warshall."], correct: 2 },
     
     { question: "30. Con respecto a los estándares PDF, señale que afirmación NO es correcta:", answers: ["PDF/UA Es el estándar global para la accesibilidad de PDF.", "PDF/A proporciona las especificaciones para crear, ver e imprimir documentos digitales para conservarlos a largo plazo.", "PDF/E proporciona especificaciones para crear, ver e imprimir documentos utilizados en flujos de trabajo de ingeniería.", "PDF/I proporciona especificaciones para crear, ver e imprimir páginas finales listas para imprimir o listas para la prensa."], correct: 3 },
     
-    { question: "31. ¿Cuál de las versiones siguientes es la más reciente del sistema operativo macOS?", answers: ["macOS Sierra", "macOS Monterey", "macOS Big Sur", "macOS Ventura"], correct: 3 },
+    { question: "31. ¿Cuál de las versiones siguientes es la más reciente del sistema operativo macOS?", answers: ["macOS Sierra", "macOS Monterey", "macOS Big Sur", "macOS Sequoia"], correct: 3 },
     
     { question: "32. Cuál de las siguientes afirmaciones NO es correcta:", answers: ["En Windows de 64 bits, un proceso de 64 bits no puede cargar una biblioteca de vínculos dinámicos (DLL) de 32 bits.", "En Windows de 64 bits, un proceso de 32 bits no puede cargar un archivo DLL de 64 bits.", "En Windows de 64 bits se admiten llamadas a procedimientos remotos (RPC) entre procesos de 64 y 32 bits solo en el mismo equipo.", "En Windows de 64 bits se admiten llamadas a procedimientos remotos (RPC) entre procesos de 64 y 32 bits tanto en el mismo equipo como entre equipos distintos."], correct: 2 },
     
@@ -48,9 +48,9 @@ const tailibre2023 = [
     
     { question: "36. Señale la respuesta correcta relativa al Modelo Entidad/Relación Extendido según establece METRICA v3:", answers: ["Un atributo se define sobre diversos dominios.", "El dominio no tiene existencia propia y depende de las entidades, las relaciones o los atributos.", "La entidad es aquel objeto, real o abstracto, acerca del cual se desea almacenar información en la base de datos.", "La clave candidata es el conjunto de atributos que garantizan la unicidad de las ocurrencias e identifican la ocurrencia unívocamente."], correct: 2 },
     
-    { question: "38. Cuál de las siguientes afirmaciones es FALSA:", answers: ["Un intérprete es un programa que ejecuta directamente las instrucciones escritas en un lenguaje de programación dado.", "Un compilador es un programa que transforma el código fuente de un programa a su equivalente en otro lenguaje de programación de más bajo nivel.", "Un transpilador es un programa que hace de intérprete y de compilador al mismo tiempo.", "Un compilador cruzado o cross compiler es un compilador capaz de crear código ejecutable para otra plataforma distinta a aquélla en la que se ejecuta."], correct: 2 },
+//    { question: "38. Cuál de las siguientes afirmaciones es FALSA:", answers: ["Un intérprete es un programa que ejecuta directamente las instrucciones escritas en un lenguaje de programación dado.", "Un compilador es un programa que transforma el código fuente de un programa a su equivalente en otro lenguaje de programación de más bajo nivel.", "Un transpilador es un programa que hace de intérprete y de compilador al mismo tiempo.", "Un compilador cruzado o cross compiler es un compilador capaz de crear código ejecutable para otra plataforma distinta a aquélla en la que se ejecuta."], correct: 2 },
     
-    { question: "39. C++ permite especificar más de una función con el mismo nombre en el mismo ámbito. ¿Cómo se denominan estas funciones?", answers: ["Funciones dobles.", "Funciones repetidas.", "Funciones sobrecargadas.", "En C++ no se puede nombrar más de una función con el mismo nombre."], correct: 2 },
+  //  { question: "39. C++ permite especificar más de una función con el mismo nombre en el mismo ámbito. ¿Cómo se denominan estas funciones?", answers: ["Funciones dobles.", "Funciones repetidas.", "Funciones sobrecargadas.", "En C++ no se puede nombrar más de una función con el mismo nombre."], correct: 2 },
     
     { question: "40. Indica, de las siguientes afirmaciones, cuál es verdadera:", answers: ["Un array o vector es un tipo de dato estructurado que permite almacenar un conjunto de datos homogéneo donde cada elemento se almacena de forma consecutiva en memoria.", "Bytecode es el código binario obtenido tras el proceso de compilación (Java).", "C++ es un lenguaje de segunda generación.", "En C++ la declaración del array: «int vector2[] = {1,2,3,4,10,9,80,70,19};», es incorrecta."], correct: 0 },
     
@@ -68,7 +68,7 @@ const tailibre2023 = [
     
     { question: "48. Seleccione la respuesta correcta sobre .NET:", answers: [".NET es un marco multiplataforma gratuito de Google para compilar aplicaciones y servicios en la nube.", ".NET es un proyecto de código abierto.", ".NET sirve exclusivamente para desarrollar aplicaciones móviles.", ".NET admite un amplio rango de lenguajes de programación, a excepción de C#"], correct: 1 },
     
-    { question: "49. Señale la respuesta INCORRECTA referente al objeto POCO en .NET:", answers: ["Es una estructura de datos de .NET que solo contiene propiedades o campos públicos.", "Es el acrónimo de Plain Old CLR Object.", "No hereda de otra clase o implementa una interfaz.", "Podrá contener miembros como: métodos. eventos y delegados."], correct: 3 },
+ //   { question: "49. Señale la respuesta INCORRECTA referente al objeto POCO en .NET:", answers: ["Es una estructura de datos de .NET que solo contiene propiedades o campos públicos.", "Es el acrónimo de Plain Old CLR Object.", "No hereda de otra clase o implementa una interfaz.", "Podrá contener miembros como: métodos. eventos y delegados."], correct: 3 },
     
     { question: "51. Señale cuál es un estándar OASIS que define los mecanismos para establecer y compartir contextos de seguridad, y para obtener claves de contextos de seguridad:", answers: ["WS-Addressing", "WS-Federation", "WS-SecureConversation", "WS-Policy"], correct: 2 },
     
@@ -76,7 +76,7 @@ const tailibre2023 = [
     
     { question: "53. ¿Cuál es el motor web desarrollado por The Mozilla Foundation?", answers: ["WebKit", "Firefox", "Gecko", "Edge"], correct: 2 },
     
-    { question: "54. ¿Qué término está relacionado con XML-binary Optimized Packaging (XOP)?", answers: ["Reconstituted XML Infoset", "XOP Header", "XOP Package", "Optimized Document"], correct: 2 },
+  //  { question: "54. ¿Qué término está relacionado con XML-binary Optimized Packaging (XOP)?", answers: ["Reconstituted XML Infoset", "XOP Header", "XOP Package", "Optimized Document"], correct: 2 },
     
     { question: "55. ¿Cuál de los siguientes NO es un framework para javascript?", answers: ["Angular", "Bootstrap", "React", "JDBC"], correct: 3 },
     
@@ -98,7 +98,7 @@ const tailibre2023 = [
     
     { question: "64. Una copia de seguridad (backup) diferencial:", answers: ["Realiza una copia fiel de los datos, lo que implica que un archivo eliminado en el origen, también se eliminará en la copia de seguridad.", "Partiendo de una copia de backup completa, realiza una copia de todos los datos modificados desde que se hizo ese backup completo.", "Realiza una copia sólo de los datos modificados desde el último backup (sea completo o incremental).", "Realiza una copia integral de los datos, copiando todos los contenidos de los sistemas a mantener."], correct: 1 },
     
-    { question: "65. ¿En qué campo del objeto de Kubernetes hay que incluir los valores que permiten identificar unívocamente al objeto?", answers: ["kind", "spec", "apiVersion", "metadata"], correct: 3 },
+   // { question: "65. ¿En qué campo del objeto de Kubernetes hay que incluir los valores que permiten identificar unívocamente al objeto?", answers: ["kind", "spec", "apiVersion", "metadata"], correct: 3 },
     
     { question: "66. ¿Cuál de los siguientes NO es un protocolo de correo electrónico?", answers: ["IMAP", "SMTP", "Outlook", "POP3"], correct: 2 },
     
@@ -132,7 +132,7 @@ const tailibre2023 = [
     
     { question: "82. Dentro de los dispositivos Android, es posible encontrar un gran número de capas de personalización. Señale cuál NO es una de ellas:", answers: ["MIUI", "PenPoint OS", "One UI", "OriginOS"], correct: 1 },
     
-    { question: "83. Señale qué paquete R en SQL Server Machine Learning Services permite realizar transformaciones y manipulaciones de datos, resúmenes estadísticos, visualizaciones y muchas formas de modelado:", answers: ["Revoscalepy", "Microsoftml", "Revoscaler", "SqlRutils"], correct: 2 },
+  //  { question: "83. Señale qué paquete R en SQL Server Machine Learning Services permite realizar transformaciones y manipulaciones de datos, resúmenes estadísticos, visualizaciones y muchas formas de modelado:", answers: ["Revoscalepy", "Microsoftml", "Revoscaler", "SqlRutils"], correct: 2 },
     
     { question: "84. ¿Cuál de los siguientes lenguajes está relacionado con el desarrollo en backend?", answers: ["GO", "SASS", "XML", "ANGULAR"], correct: 0 },
     
