@@ -172,7 +172,7 @@
 </head>
 <body>
     <!-- Botón de modo noche -->
-    <button id="night-mode-btn">Modo Noche</button>
+    <button id="night-mode-btn">🌙 Modo Oscuro</button>
     
     <div class="quiz-container">
         <h2>Test Informática</h2>
@@ -270,9 +270,15 @@
                 <button onclick="loadQuestions('tema24')">TEST TEMA 24 - Arquitectura cliente/servidor</button>
                 <button onclick="loadQuestions('tema37')">TEST TEMA 37 - Aplicaciones Móviles</button>
                 <button onclick="loadQuestions('tema3702')">TEST TEMA 37-2 - Aplicaciones Móviles</button>
-                <button onclick="loadQuestions('tai2024')">TEST TAI 2024</button>
+             </div>
+			            <!-- Examenes Oficiales -->
+            <div class="category-title" onclick="toggleSubcategory('oficiales')">Examenes Oficiales</div>
+            <div id="oficiales" class="subcategory oficiales-topics">
+			    <button onclick="loadQuestions('tai2024')">TEST TAI 2024</button>
                 <button onclick="loadQuestions('tailibre2024')">TEST TAI LIBRE 2024</button>
 				<button onclick="loadQuestions('tailibre2023')">TEST TAI LIBRE 2023</button>
+				<button onclick="loadQuestions('juntalibre2023')">TEST JA LIBRE 2023</button>
+			    <button onclick="loadQuestions('ayudantestecnicos')">TEST AYUDANTES TÉCNICOS INFORMÁTICOS PA</button>
             </div>
             
             <button id="random-test" onclick="loadQuestions('random')">PREGUNTAS ALEATORIAS (50)</button>
@@ -340,6 +346,8 @@
     <script src="js/tai2024.js"></script>
     <script src="js/tailibre2024.js"></script>
 	<script src="js/tailibre2023.js"></script>
+	<script src="js/juntalibre2023.js"></script>
+	<script src="js/ayudantestecnicos.js"></script>
     <script src="js/custom-random-test.js"></script>
     
     <!-- Script para el modo noche y botón dinámico -->
@@ -352,10 +360,10 @@
             // Cambiar el texto del botón según el modo
             const nightModeBtn = document.getElementById('night-mode-btn');
             if (document.body.classList.contains('dark-mode')) {
-                nightModeBtn.textContent = 'Modo Día';
+                nightModeBtn.textContent = '☀️ Modo Claro';
                 localStorage.setItem('darkMode', 'enabled');
             } else {
-                nightModeBtn.textContent = 'Modo Noche';
+                nightModeBtn.textContent = '🌙 Modo Oscuro';
                 localStorage.setItem('darkMode', 'disabled');
             }
         }
@@ -369,7 +377,7 @@
             if (localStorage.getItem('darkMode') === 'enabled') {
                 document.documentElement.classList.add('dark-mode');
                 document.body.classList.add('dark-mode');
-                nightModeBtn.textContent = 'Modo Día';
+                nightModeBtn.textContent = '☀️ Modo Claro';
             }
             
             // Ocultar/mostrar el botón según el scroll
