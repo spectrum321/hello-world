@@ -186,12 +186,34 @@ function loadQuestions(category) {
            break;		
 		case 'ayudantestecnicos': testTitle = 'TEST AYUDANTES TÉCNICOS INFORMÁTICOS PA';
             quiz = ayudantestecnicos;
+           break;	
+		case 'uninavarra2024': testTitle = 'TEST Oficial Técnico Universidad Pública de Navarra 2024';
+            quiz = uninavarra2024;
+           break;
+		case 'auxiliarcadiz2022': testTitle = 'TEST Técnico Auxiliar de Informática cadiz 2022';
+            quiz = auxiliarcadiz2022;
+           break;
+		case 'taiburriana2024': testTitle = 'TEST Técnico Auxiliar Burriana 2024';
+            quiz = taiburriana2024;
            break;			   
+		case 'uninavarrapb2024': testTitle = 'TEST Técnico Auxiliar Univ Navarra 2024';
+            quiz = uninavarrapb2024;
+           break;
+		case 'tsupcyl2024': testTitle = 'TEST TÉCNICO SUPERIOR Castilla y Leon 2024';
+            quiz = tsupcyl2024;
+           break;
+		case 'rioja2024': testTitle = 'TEST TÉCNICO la rioja 2024';
+            quiz = rioja2024;
+           break;
+		case 'jcastellon2024': testTitle = 'TEST TÉCNICO Junta Castellon 2024';
+            quiz = jcastellon2024;
+           break;
         case 'random':
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
 			 ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
 			 ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tema3opo, ...tema4opo, ...tema5opo, ...tema6opo, ...tema7opo, ...tema8opo, ...tema9opo, ...tema10opo, ...tai2024,
-			 ...tailibre2024, ...tailibre2023, ...juntalibre2023, ...ayudantestecnicos].sort(() => Math.random() - 0.5).slice(0, 50);
+			 ...tailibre2024, ...tailibre2023, ...juntalibre2023, ...ayudantestecnicos, ...uninavarra2024, ...auxiliarcadiz2022, ...taiburriana2024, ...uninavarrapb2024, ...uninavarrapb2024,
+			 ...tsupcyl2024, ...rioja2024, ...jcastellon2024].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
             default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }

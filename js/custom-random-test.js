@@ -198,12 +198,34 @@ function loadQuestions(category) {
 		case 'ayudantestecnicos': testTitle = 'TEST AYUDANTES TÉCNICOS INFORMÁTICOS PA';
             quiz = ayudantestecnicos;
            break;		   
+		case 'uninavarra2024': testTitle = 'TEST Oficial Técnico Universidad Pública de Navarra 2024';
+            quiz = uninavarra2024;
+           break;
+		case 'auxiliarcadiz2022': testTitle = 'TEST Técnico Auxiliar de Informática cadiz 2022';
+            quiz = auxiliarcadiz2022;
+           break;
+		case 'taiburriana2024': testTitle = 'TEST Técnico Auxiliar Burriana 2024';
+            quiz = taiburriana2024;
+           break;			   
+		case 'uninavarrapb2024': testTitle = 'TEST Técnico Auxiliar Univ Navarra 2024';
+            quiz = uninavarrapb2024;
+           break;
+		case 'tsupcyl2024': testTitle = 'TEST TÉCNICO SUPERIOR Castilla y Leon 2024';
+            quiz = tsupcyl2024;
+           break;
+		case 'rioja2024': testTitle = 'TEST TÉCNICO la rioja 2024';
+            quiz = rioja2024;
+           break;
+		case 'jcastellon2024': testTitle = 'TEST TÉCNICO Junta Castellon 2024';
+            quiz = jcastellon2024;
+           break;
         case 'random':
             testTitle = 'TEST ALEATORIO';
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
              ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
              ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tema3opo, ...tema4opo, ...tema5opo, ...tema6opo, ...tema7opo, ...tema8opo, ...tema9opo, ...tema10opo, ...tai2024,
-			 ...tailibre2024, ...tailibre2023, ...juntalibre2023, ...ayudantestecnicos].sort(() => Math.random() - 0.5).slice(0, 50);
+			 ...tailibre2024, ...tailibre2023, ...juntalibre2023, ...ayudantestecnicos, ...uninavarra2024, ...auxiliarcadiz2022, ...taiburriana2024, ...uninavarrapb2024, ...uninavarrapb2024,
+			 ...tsupcyl2024, ...rioja2024, ...jcastellon2024].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
         default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }
@@ -428,7 +450,14 @@ function createRandomTestSelector() {
 		{id: 'tailibre2024', name: 'TAI LIBRE 2024'},
 		{id: 'tailibre2023', name: 'TAI LIBRE 2023'},
 		{id: 'juntalibre2023', name: 'TEST JA LIBRE 2023'},
-		{id: 'ayudantestecnicos', name: 'TEST AYUDANTES TÉCNICOS INFORMÁTICOS PA'}
+		{id: 'ayudantestecnicos', name: 'TEST AYUDANTES TÉCNICOS INFORMÁTICOS PA'},
+		{id: 'uninavarra2024', name: 'TEST Oficial Técnico Universidad Pública de Navarra 2024'},
+		{id: 'auxiliarcadiz2022', name: 'TEST Técnico Auxiliar de Informática cadiz 2022'},
+        {id: 'taiburriana2024', name: 'TEST Técnico Auxiliar Burriana 2024'},
+		{id: 'uninavarrapb2024', name: 'TEST Técnico Auxiliar Univ Navarra 2024'},
+		{id: 'tsupcyl2024', name: 'TEST TÉCNICO SUPERIOR Castilla y Leon 2024'},
+		{id: 'rioja2024', name: 'TEST TÉCNICO la rioja 2024'},
+		{id: 'jcastellon2024', name: 'TEST TÉCNICO Junta Castellon 2024'}
     ];
     
     // Botón para seleccionar/deseleccionar todos
@@ -611,6 +640,14 @@ function generateCustomTest() {
             case 'tai2024': allQuestions = allQuestions.concat(tai2024); break;
 			case 'tailibre2024': allQuestions = allQuestions.concat(tailibre2024); break;
 			case 'tailibre2023': allQuestions = allQuestions.concat(tailibre2023); break;
+			case 'ayudantestecnicos': allQuestions = allQuestions.concat(ayudantestecnicos); break;
+			case 'uninavarra2024': allQuestions = allQuestions.concat(uninavarra2024); break;
+            case 'auxiliarcadiz2022': allQuestions = allQuestions.concat(auxiliarcadiz2022); break;
+			case 'taiburriana2024': allQuestions = allQuestions.concat(taiburriana2024); break;
+            case 'uninavarrapb2024': allQuestions = allQuestions.concat(uninavarrapb2024); break;
+			case 'tsupcyl2024': allQuestions = allQuestions.concat(tsupcyl2024); break;
+			case 'rioja2024': allQuestions = allQuestions.concat(rioja2024); break;
+			case 'jcastellon2024': allQuestions = allQuestions.concat(jcastellon2024); break;
         }
     });
     
