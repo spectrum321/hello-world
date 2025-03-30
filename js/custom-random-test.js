@@ -291,12 +291,12 @@ function exitQuiz() {
 function checkAnswer(button, index) {
     answered = true;
     if (index === quiz[currentQuestion].correct) {
-        button.style.backgroundColor = "lightgreen";
+        button.classList.add("correct"); // Usar clase en lugar de estilo directo
         if (!answeredIncorrectly) {
             score++;
         }
     } else {
-        button.style.backgroundColor = "lightcoral";
+        button.classList.add("incorrect"); // Usar clase en lugar de estilo directo
         incorrectAnswers.push(currentQuestion);
         answeredIncorrectly = true;
     }
@@ -580,7 +580,7 @@ function generateCustomTest() {
         return;
     }
     
-    // Crear un array con todas las preguntas de los temas seleccionados
+     // Crear un array con todas las preguntas de los temas seleccionados
     let allQuestions = [];
     selectedTopics.forEach(topic => {
         switch(topic) {
