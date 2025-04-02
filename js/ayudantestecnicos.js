@@ -28,7 +28,7 @@ const ayudantestecnicos = [
     
     { question: "61. Indique cuál es un conocido framework para el desarrollo de aplicaciones móviles basadas en tecnologías estándar HTML5, CSS y Javascript:", answers: ["Naturgy", "Apache Cordova", "Apache Nifi", "Open Mobility"], correct: 1 },
     
-    { question: "64. En el lenguaje de programación C, indique qué función permite realizar una reserva dinámica de memoria:", answers: ["memcpy", "memset", "malloc", "strcpy"], correct: 2 },
+   // { question: "64. En el lenguaje de programación C, indique qué función permite realizar una reserva dinámica de memoria:", answers: ["memcpy", "memset", "malloc", "strcpy"], correct: 2 },
     
     { question: "65. Seleccione la opción que contenga únicamente tipos de eventos que pueden desencadenar el inicio de la ejecución de un proceso BPMN 2.0:", answers: ["Message y Link", "Escalation y Link", "Message y Termination", "Timer y Signal"], correct: 3 },
     
