@@ -208,12 +208,21 @@ function loadQuestions(category) {
 		case 'jcastellon2024': testTitle = 'TEST TÉCNICO Junta Castellon 2024';
             quiz = jcastellon2024;
            break;
+		case 'sasbaleares': testTitle = 'TEST TÉCNICO SAS Baleares 2024';
+            quiz = sasbaleares;
+           break;
+		case 'raid': testTitle = 'TEST TIPOS DE RAID';
+            quiz = raid;
+           break;
+		case 'cablesred': testTitle = 'TEST CABLES DE RED';
+            quiz = cablesred;
+           break;
         case 'random':
             quiz = [...tema2, ...tema4, ...tema6, ...tema7, ...tema8, ...tema9, ...tema10, ...tema11, ...tema12, ...tema13, ...tema14, ...tema15, ...tema18, ...tema19, ...tema23,
 			 ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
 			 ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tema3opo, ...tema4opo, ...tema5opo, ...tema6opo, ...tema7opo, ...tema8opo, ...tema9opo, ...tema10opo, ...tai2024,
 			 ...tailibre2024, ...tailibre2023, ...juntalibre2023, ...ayudantestecnicos, ...uninavarra2024, ...auxiliarcadiz2022, ...taiburriana2024, ...uninavarrapb2024, ...uninavarrapb2024,
-			 ...tsupcyl2024, ...rioja2024, ...jcastellon2024].sort(() => Math.random() - 0.5).slice(0, 50);
+			 ...tsupcyl2024, ...rioja2024, ...jcastellon2024, ...sasbaleares, ...raid, ...cablesred].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
             default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }
