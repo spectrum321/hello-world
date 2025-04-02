@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Interactivo</title>
     <style>
@@ -93,7 +93,7 @@
     </style>
 </head>
 <body>
-    <button id="theme-toggle" class="theme-toggle">☀️ Modo Claro</button>
+    <button id="theme-toggle" class="theme-toggle">☀🌙 Modo Oscuro</button>
 
     <div class="quiz-container">
         <h2>Test Informática</h2>
@@ -164,6 +164,9 @@
 			<button onclick="loadQuestions('tsupcyl2024')">TEST TÉCNICO SUPERIOR Castilla y Leon 2024</button>
 			<button onclick="loadQuestions('rioja2024')">TEST TÉCNICO la rioja 2024</button>
 			<button onclick="loadQuestions('jcastellon2024')">TEST TÉCNICO Junta Castellon 2024</button>
+			<button onclick="loadQuestions('sasbaleares')">TEST TÉCNICO SAS Baleares 2024</button>
+            <button onclick="loadQuestions('raid')">TEST Tipo de Raid</button>
+            <button onclick="loadQuestions('cablesred')">TEST Cables de Red</button>
             <button onclick="loadQuestions('random')">Preguntas Aleatorias</button>
         </div>
         <h2 id="question" class="hidden">Pregunta aquí</h2>
@@ -238,6 +241,9 @@
 	<script src="js/tsupcyl2024.js"></script>
 	<script src="js/rioja2024.js"></script>
 	<script src="js/jcastellon2024.js"></script>
+	<script src="js/sasbaleares.js"></script>
+	<script src="js/raid.js"></script>
+	<script src="js/cablesred.js"></script>
     <script src="js/main.js"></script>
     
     <script>
@@ -247,9 +253,9 @@
         // Verificar si hay una preferencia guardada
         if (localStorage.getItem('darkMode') === 'true') {
             document.body.classList.add('dark-mode');
-            themeToggle.textContent = '🌙 Modo Oscuro';
+            themeToggle.textContent = '?? Modo Claro';
         } else {
-            themeToggle.textContent = '☀️ Modo Claro';
+            themeToggle.textContent = '🌙 Modo Oscuro';
         }
         
         // Función para cambiar entre modos
@@ -257,11 +263,11 @@
             if (document.body.classList.contains('dark-mode')) {
                 document.body.classList.remove('dark-mode');
                 localStorage.setItem('darkMode', 'false');
-                themeToggle.textContent = '☀️ Modo Claro';
+                themeToggle.textContent = '🌙 Modo Oscuro';
             } else {
                 document.body.classList.add('dark-mode');
                 localStorage.setItem('darkMode', 'true');
-                themeToggle.textContent = '🌙 Modo Oscuro';
+                themeToggle.textContent = '?? Modo Claro';
             }
         });
         
