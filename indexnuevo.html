@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-   <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Interactivo</title>
     <style>
@@ -93,7 +93,7 @@
     </style>
 </head>
 <body>
-    <button id="theme-toggle" class="theme-toggle">☀🌙 Modo Oscuro</button>
+    <button id="theme-toggle" class="theme-toggle">☀️ Modo Claro</button>
 
     <div class="quiz-container">
         <h2>Test Informática</h2>
@@ -253,9 +253,9 @@
         // Verificar si hay una preferencia guardada
         if (localStorage.getItem('darkMode') === 'true') {
             document.body.classList.add('dark-mode');
-            themeToggle.textContent = '?? Modo Claro';
-        } else {
             themeToggle.textContent = '🌙 Modo Oscuro';
+        } else {
+            themeToggle.textContent = '☀️ Modo Claro';
         }
         
         // Función para cambiar entre modos
@@ -263,11 +263,11 @@
             if (document.body.classList.contains('dark-mode')) {
                 document.body.classList.remove('dark-mode');
                 localStorage.setItem('darkMode', 'false');
-                themeToggle.textContent = '🌙 Modo Oscuro';
+                themeToggle.textContent = '☀️ Modo Claro';
             } else {
                 document.body.classList.add('dark-mode');
                 localStorage.setItem('darkMode', 'true');
-                themeToggle.textContent = '?? Modo Claro';
+                themeToggle.textContent = '🌙 Modo Oscuro';
             }
         });
         

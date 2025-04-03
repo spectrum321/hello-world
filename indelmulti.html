@@ -8,14 +8,14 @@
 </head>
 <body>
     <!-- Botón de modo noche -->
-    <button id="night-mode-btn">?? Modo Oscuro</button>
+    <button id="night-mode-btn">🌙 Modo Oscuro</button>
     
     <div class="quiz-container">
         <h2>Test Informática</h2>
         <h2 id="test-title" class="hidden"></h2>
         <div id="categories">
             <!-- Categorías con submenús -->
-           <div class="category">
+            <div class="category">
                 <div class="category-title" onclick="toggleSubcategory('sistemas-operativos')">Sistemas Operativos</div>
                 <div id="sistemas-operativos" class="subcategory">
                     <button onclick="loadQuestions('tema10')">TEST TEMA 10 - Sistemas operativos</button>
@@ -106,7 +106,7 @@
                 <button onclick="loadQuestions('tema24')">TEST TEMA 24 - Arquitectura cliente/servidor</button>
                 <button onclick="loadQuestions('tema37')">TEST TEMA 37 - Aplicaciones Móviles</button>
                 <button onclick="loadQuestions('tema3702')">TEST TEMA 37-2 - Aplicaciones Móviles</button>
-                <button onclick="loadQuestions('raid')">TEST Tipo de Raid</button>
+				<button onclick="loadQuestions('raid')">TEST Tipo de Raid</button>
                 <button onclick="loadQuestions('cablesred')">TEST Cables de Red</button>
              </div>
 			            <!-- Examenes Oficiales -->
@@ -136,7 +136,7 @@
         <button id="restart" class="hidden" onclick="restartQuiz()">Volver al menú</button>
     </div>
 
- <script src="js/tema2.js"></script>
+    <script src="js/tema2.js"></script>
     <script src="js/tema4.js"></script>
     <script src="js/tema6.js"></script>
     <script src="js/tema7.js"></script>
@@ -216,7 +216,7 @@
             // Cambiar el texto del botón según el modo
             const nightModeBtn = document.getElementById('night-mode-btn');
             if (document.body.classList.contains('dark-mode')) {
-                nightModeBtn.textContent = '?? Modo Claro';
+                nightModeBtn.textContent = '☀️ Modo Claro';
                 localStorage.setItem('darkMode', 'enabled');
             } else {
                 nightModeBtn.textContent = '🌙 Modo Oscuro';
@@ -233,7 +233,7 @@
             if (localStorage.getItem('darkMode') === 'enabled') {
                 document.documentElement.classList.add('dark-mode');
                 document.body.classList.add('dark-mode');
-                nightModeBtn.textContent = '?? Modo Claro';
+                nightModeBtn.textContent = '☀️ Modo Claro';
             }
             
             // Ocultar/mostrar el botón según el scroll
@@ -254,16 +254,7 @@
                 lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
             });
         });
-                // Control de visibilidad del botón durante el scroll
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > 100) { // Desaparece cuando se baja más de 100px
-                themeToggle.style.opacity = '0';
-                themeToggle.style.pointerEvents = 'none'; // Deshabilita interacciones cuando está invisible
-            } else {
-                themeToggle.style.opacity = '1';
-                themeToggle.style.pointerEvents = 'auto'; // Rehabilita interacciones
-            }
-        });
+        
         // Mantener las funciones existentes
         function toggleSubcategory(id) {
             const subcategory = document.getElementById(id);
