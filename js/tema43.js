@@ -92,7 +92,7 @@ const tema43 = [
    // { question: "45. ¿Cuál es la dirección de broadcast de la subred 172.17.11.32/27?", answers: ["172.17.11.255", "172.17.11.63", "172.17.11.47", "172.17.255.255"], correct: 1 },
    { question: "45. En el ámbito de las redes inalámbricas, la variante IEEE 802.11ac:", answers: ["Opera dentro del rango de los 5 GHz.", "Opera dentro del rango de los 2.4 GHz.", "Opera dentro del rango de los 8 GHz.", "Opera dentro del rango de los 11 GHz."], correct: 0 },
    
-    { question: "46. En el ámbito de las redes inalámbricas, la variante IEEE 802.11a:", answers: ["Opera dentro del rango de los 5 GHz.", "Es compatible con el estándar 802.11b.", "Es compatible con el estándar 802.11g.", "Incorpora QoS (Calidad de Servicio)."], correct: 0 },
+    { question: "46. En el ámbito de las redes inalámbricas, la variante IEEE 802.11ax:", answers: ["Se identifica como Wi-Fi 6.", "Es compatible con el estándar 802.11b.", "Es compatible con el estándar 802.11g.", "Incorpora QoS (Calidad de Servicio)."], correct: 0 },
     
     { question: "47. El estándar IEEE 802.11e sobre redes inalámbricas se corresponde con especificaciones …", answers: ["para la coexistencia con sistemas de Radar o Satélite.", "de seguridad.", "de roaming.", "sobre calidad de servicio QoS."], correct: 3 },
     
@@ -116,7 +116,7 @@ const tema43 = [
     
    // { question: "57. Consideramos la subred 193.146.76.160/27, ¿cuál de las siguientes direcciones se puede utilizar en dicha subred?", answers: ["193.146.76.158", "193.146.76.190", "193.146.76.193", "193.146.76.196"], correct: 1 },
     
-    { question: "58. El protocolo Rapid Spanning Tree Protocol (RSTP) esta especificado en:", answers: ["802.1d", "802.1q", "802.1d", "802.1w"], correct: 3 },
+    { question: "58. El protocolo Rapid Spanning Tree Protocol (RSTP) esta especificado en:", answers: ["802.1d", "802.1q", "802.1c", "802.1w"], correct: 3 },
     
     { question: "59. ¿Qué velocidad máxima teórica se alanza en las redes 802.11g?", answers: ["11 Mbps", "54 Mbps", "480 Mbps", "600 Mbps"], correct: 1 },
     

@@ -17,7 +17,7 @@ const tema6 = [
                 { question: "16. ¿Qué es una memoria tipo ECC?", answers: ["Memoria con detección de errores", "Memoria con detección y corrección de errores", "Memoria con detección, corrección y prevención de errores", "Ninguna de las anteriores"], correct: 1 },
                 { question: "17. La principal ventaja de las memorias caché es:", answers: ["Seguridad y fiabilidad", "Alta velocidad", "Bajo precio", "Compatibilidad con otras memorias"], correct: 1 },
                 { question: "18. En las memorias con acceso secuencial:", answers: ["Se accede en secuencias cortas", "Se recorre toda la memoria hasta el dato", "Se accede directamente y se transmite secuencialmente", "Ninguna de las anteriores"], correct: 1 },
-                { question: "19. ¿Cuál es la capacidad de una memoria de 2048 palabras con ancho de palabra de 16 bits?", answers: ["16 KB", "4 KB", "16 Kb", "8 KB"], correct: 1 },
+                { question: "19. ¿Cuál es la capacidad de una memoria de 2048 palabras con ancho de palabra de 16 bits?", answers: ["16 KB", "4 KB", "12 Kb", "8 KB"], correct: 1 },
                 { question: "20. Respecto a las memorias RAM tipo SRAM, ¿cuál es INCORRECTA?", answers: ["Es más costosa que DRAM", "Significa Synchronous Random-Access Memory", "Se usa en la caché", "Mantiene datos sin refresco mientras tenga alimentación"], correct: 1 }
     
 ];
