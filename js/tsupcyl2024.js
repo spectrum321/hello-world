@@ -1,6 +1,6 @@
 const tsupcyl2024 = [
     
-        { question: "7. Para que el código de una página web se vea en un móvil, se debe cumplir una de las siguientes opciones:", answers: ["Tiene que ser obligatoriamente HTML5.", "Sirve cualquier HTML, javascript y CSS ajustados al entorno y necesidades visuales de un móvil.", "No puede tener javascript, solo código fuente en lenguaje responsive.", "No puede tener CSS, solo SCSS para móviles."], correct: 1 },
+    { question: "7. Para que el código de una página web se vea en un móvil, se debe cumplir una de las siguientes opciones:", answers: ["Tiene que ser obligatoriamente HTML5.", "Sirve cualquier HTML, javascript y CSS ajustados al entorno y necesidades visuales de un móvil.", "No puede tener javascript, solo código fuente en lenguaje responsive.", "No puede tener CSS, solo SCSS para móviles."], correct: 1 },
     
     { question: "8. El objetivo principal de las directrices y recomendaciones recogidas en Web Content Accessibility Guidelines (WCAG) es:", answers: ["Que el mismo contenido HTML sirva tanto en PCs como en dispositivos móviles y personales.", "Que los buscadores accedan de forma legítima y controlada a páginas de contenidos sometidos a derechos de autor.", "Que las personas con alguna discapacidad o dificultad puedan acceder de una forma adecuada a contenidos web.", "Que las páginas web puedan acceder y utilizar los contenidos alojados en el servidor de forma segura."], correct: 2 },
     
@@ -24,9 +24,9 @@ const tsupcyl2024 = [
     
     { question: "18. Si en una base de datos relacional se quiere garantizar que se aplican todos los cambios o ninguno, usaremos:", answers: ["Sesiones.", "Transacciones.", "Restricciones.", "Disparadores."], correct: 1 },
     
-    { question: "19. Indica qué sentencia escrita en SQL NO es correcta:", answers: ["SELECT PUESTO, MIN(SALARIO), MAX(SALARIO) FROM PLANTILLA GROUP BY PUESTO;", "SELECT PUESTO, EDAD, AVG(SALARIO)FROM PLANTILLA WHERE EDAD > 40 GROUP BY PUESTO, EDAD;", "SELECT PUESTO, AVG(SALARIO)FROM PLANTILLA HAVING AVG(SALARIO) > 12000 GROUP BY PUESTO;", "SELECT PUESTO, AVG(SALARIO)FROM PLANTILLA GROUP BY PUESTO HAVING AVG(SALARIO) > 12000;"], correct: 2 },
+   // { question: "19. Indica qué sentencia escrita en SQL NO es correcta:", answers: ["SELECT PUESTO, MIN(SALARIO), MAX(SALARIO) FROM PLANTILLA GROUP BY PUESTO;", "SELECT PUESTO, EDAD, AVG(SALARIO)FROM PLANTILLA WHERE EDAD > 40 GROUP BY PUESTO, EDAD;", "SELECT PUESTO, AVG(SALARIO)FROM PLANTILLA HAVING AVG(SALARIO) > 12000 GROUP BY PUESTO;", "SELECT PUESTO, AVG(SALARIO)FROM PLANTILLA GROUP BY PUESTO HAVING AVG(SALARIO) > 12000;"], correct: 2 },
     
-    { question: "20. ¿Para qué sirve la anotación @Entity en Spring Boot JPA?", answers: ["Define esa clase como un interface del repositorio.", "Define una clase como una entidad, que representará a una tabla en una BBDD relacional.", "Indica que esa clase es un service.", "Indica que es un controller de un servicio REST."], correct: 1 },
+   // { question: "20. ¿Para qué sirve la anotación @Entity en Spring Boot JPA?", answers: ["Define esa clase como un interface del repositorio.", "Define una clase como una entidad, que representará a una tabla en una BBDD relacional.", "Indica que esa clase es un service.", "Indica que es un controller de un servicio REST."], correct: 1 },
     
     { question: "21. ¿Qué devolverá el siguiente código en Java? String str1 = \"Hello\"; String str2 = new String(\"Hello\"); System.out.println(str1 == str2);", answers: ["true", "false", "Error", "Depende de la versión de Java"], correct: 1 },
     
