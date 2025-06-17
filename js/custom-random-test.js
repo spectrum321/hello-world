@@ -222,9 +222,9 @@ function loadQuestions(category) {
 		case 'sasbaleares': testTitle = 'TEST TÉCNICO SAS Baleares 2024';
             quiz = sasbaleares;
            break;
-   		case 'stai2024': testTitle = 'TEST SUPERIOR TECNICO TAI 2024';
+   		/* case 'stai2024': testTitle = 'TEST SUPERIOR TECNICO TAI 2024';
             quiz = stai2024;
-           break;
+           break; */
 		case 'taial2025': testTitle = 'TAI AYTO LEON 2025';
             quiz = taial2025;
            break;
@@ -249,7 +249,7 @@ function loadQuestions(category) {
              ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
              ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tema3opo, ...tema4opo, ...tema5opo, ...tema6opo, ...tema7opo, ...tema8opo, ...tema9opo, ...tema10opo, ...tai2024,
 			 ...tailibre2024, ...tailibre2023, ...juntalibre2023, ...ayudantestecnicos, ...uninavarra2024, ...auxiliarcadiz2022, ...taiburriana2024, ...uninavarrapb2024, ...uninavarrapb2024,
-			 ...tsupcyl2024, ...rioja2024, ...jcastellon2024, ...sasbaleares, ...stai2024, ...taial2025, ...tmisas2025, ...tstsas2024, ...tgccli2025, ...raid, ...cablesred].sort(() => Math.random() - 0.5).slice(0, 50);
+			 ...tsupcyl2024, ...rioja2024, ...jcastellon2024, ...sasbaleares, /* ...stai2024, */...taial2025, ...tmisas2025, ...tstsas2024, ...tgccli2025, ...raid, ...cablesred].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
         default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }
@@ -483,7 +483,7 @@ function createRandomTestSelector() {
 		{id: 'rioja2024', name: 'TEST TÉCNICO la rioja 2024'},
 		{id: 'jcastellon2024', name: 'TEST TÉCNICO Junta Castellon 2024'},
 		{id: 'sasbaleares', name: 'TEST TÉCNICO SUPERIOR SAS Baleares 2024'},
-		{id: 'stai2024', name: 'TEST SUPERIOR TECNICO TAI 2024'},
+		/* {id: 'stai2024', name: 'TEST SUPERIOR TECNICO TAI 2024'}, */
 		{id: 'taial2025', name: 'TEST TAI AYTO LEON 2025'},
 		{id: 'tmisas2025', name: 'TEST TMI SAS 2024'},
 		{id: 'tstsas2024', name: 'TEST TSI SAS 2024'},
