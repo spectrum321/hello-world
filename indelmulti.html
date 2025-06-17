@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- Botón de modo noche -->
-    <button id="night-mode-btn">☀️ Modo Claro</button>
+    <button id="night-mode-btn">🌙 Modo Oscuro</button>
     
     <div class="quiz-container">
         <h2>Test Informática</h2>
@@ -226,10 +226,10 @@
             // Cambiar el texto del botón según el modo
             const nightModeBtn = document.getElementById('night-mode-btn');
             if (document.body.classList.contains('dark-mode')) {
-                nightModeBtn.textContent = '🌙 Modo Oscuro';
+                nightModeBtn.textContent = '☀️ Modo Claro';
                 localStorage.setItem('darkMode', 'enabled');
             } else {
-                nightModeBtn.textContent = '☀️ Modo Claro';
+                nightModeBtn.textContent = '🌙 Modo Oscuro';
                 localStorage.setItem('darkMode', 'disabled');
             }
         }
