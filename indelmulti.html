@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- Botón de modo noche -->
-    <button id="night-mode-btn">🌙 Modo Oscuro</button>
+    <button id="night-mode-btn">☀️ Modo Claro</button>
     
     <div class="quiz-container">
         <h2>Test Informática</h2>
@@ -116,20 +116,20 @@
                 <button onclick="loadQuestions('tailibre2024')">TEST TAI LIBRE 2024</button>
 				<button onclick="loadQuestions('tailibre2023')">TEST TAI LIBRE 2023</button>
 				<button onclick="loadQuestions('juntalibre2023')">TEST JA LIBRE 2023</button>
-				<button onclick="loadQuestions('ayudantestecnicos')">TEST AYUDANTES TÉNICOS INFORMÁTICOS PA</button>
+				<button onclick="loadQuestions('ayudantestecnicos')">TEST AYUDANTES TÉCNICOS INFORMÁTICOS PA</button>
 				<button onclick="loadQuestions('uninavarra2024')">TEST Oficial Técnico Universidad Pública de Navarra 2024</button>
 				<button onclick="loadQuestions('auxiliarcadiz2022')">TEST Técnico Auxiliar de Informática cadiz 2022</button>
 				<button onclick="loadQuestions('taiburriana2024')">TEST Técnico Auxiliar Burriana 2024</button>
 				<button onclick="loadQuestions('uninavarrapb2024')">TEST Técnico Auxiliar Univ Navarra 2024</button>
-				<button onclick="loadQuestions('tsupcyl2024')">TEST TÉNICO SUPERIOR Castilla y Leon 2024</button>
-				<button onclick="loadQuestions('rioja2024')">TEST TÉNICO la rioja 2024</button>
-				<button onclick="loadQuestions('jcastellon2024')">TEST TÉNICO Junta Castellon 2024</button>
-				<button onclick="loadQuestions('sasbaleares')">TEST TÉNICO SAS Baleares 2024</button>
-				<button onclick="loadQuestions('stai2024')">TEST CS Sistemas y Tecnologias de la Informacion de la Administracion del Estado. Libre 2024</button>
-				<button onclick="loadQuestions('taial2025')">TEST TÉNICO Auxiliar Informática (Grupo B)para el Ayuntamiento de Leon Libre 2025</button>
-				<button onclick="loadQuestions('tmisas2025')">TEST TÉNICO Medio Informática SAS Libre 2024</button>
-				<button onclick="loadQuestions('tstsas2024')">TEST TÉNICO Sistemas Informacion SAS Libre 2024</button>
-				<button onclick="loadQuestions('tgccli2025')">TEST TÉNICO Gestion Informatica CYL PI 2025</button>
+				<button onclick="loadQuestions('tsupcyl2024')">TEST TÉCNICO SUPERIOR Castilla y Leon 2024</button>
+				<button onclick="loadQuestions('rioja2024')">TEST TÉCNICO la rioja 2024</button>
+				<button onclick="loadQuestions('jcastellon2024')">TEST TÉCNICO Junta Castellon 2024</button>
+				<button onclick="loadQuestions('sasbaleares')">TEST TÉCNICO SAS Baleares 2024</button>
+				<!-- <button onclick="loadQuestions('stai2024')">TEST CS Sistemas y Tecnologias de la Informacion de la Administracion del Estado. Libre 2024</button> -->
+				<button onclick="loadQuestions('taial2025')">TEST TÉCNICO Auxiliar Informática (Grupo B)para el Ayuntamiento de Leon Libre 2025</button>
+				<button onclick="loadQuestions('tmisas2025')">TEST TÉCNICO Medio Informática SAS Libre 2024</button>
+				<button onclick="loadQuestions('tstsas2024')">TEST TÉCNICO Sistemas Informacion SAS Libre 2024</button>
+				<button onclick="loadQuestions('tgccli2025')">TEST TÉCNICO Gestion Informatica CYL PI 2025</button>
             </div>
             
             <button id="random-test" onclick="loadQuestions('random')">PREGUNTAS ALEATORIAS (50)</button>
@@ -207,7 +207,7 @@
 	<script src="js/rioja2024.js"></script>
 	<script src="js/jcastellon2024.js"></script>
 	<script src="js/sasbaleares.js"></script>
-	<script src="js/stai2024.js"></script>
+	<!-- <script src="js/stai2024.js"></script> -->
 	<script src="js/taial2025.js"></script>
 	<script src="js/tmisas2025.js"></script>
 	<script src="js/tstsas2024.js"></script>
@@ -226,10 +226,10 @@
             // Cambiar el texto del botón según el modo
             const nightModeBtn = document.getElementById('night-mode-btn');
             if (document.body.classList.contains('dark-mode')) {
-                nightModeBtn.textContent = '☀�?Modo Claro';
+                nightModeBtn.textContent = '🌙 Modo Oscuro';
                 localStorage.setItem('darkMode', 'enabled');
             } else {
-                nightModeBtn.textContent = '🌙 Modo Oscuro';
+                nightModeBtn.textContent = '☀️ Modo Claro';
                 localStorage.setItem('darkMode', 'disabled');
             }
         }
@@ -243,7 +243,7 @@
             if (localStorage.getItem('darkMode') === 'enabled') {
                 document.documentElement.classList.add('dark-mode');
                 document.body.classList.add('dark-mode');
-                nightModeBtn.textContent = '☀�?Modo Claro';
+                nightModeBtn.textContent = '☀️ Modo Claro';
             }
             
             // Ocultar/mostrar el botón según el scroll
