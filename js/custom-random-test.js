@@ -183,6 +183,39 @@ function loadQuestions(category) {
 		case 'tema10opo': testTitle = 'TEST TEMA 10 OPO';
             quiz = tema10opo;
            break;
+        case 'practico1': testTitle = 'TEST NUEVO TEMA 1 OPO';
+            quiz = practico1;
+           break; 
+        case 'practico2': testTitle = 'TEST NUEVO TEMA 2 OPO';
+            quiz = practico2;
+           break; 
+        case 'practico3': testTitle = 'TEST NUEVO TEMA 3 OPO';
+            quiz = practico3;
+           break; 
+		case 'practico4': testTitle = 'TEST NUEVO TEMA 4 OPO';
+            quiz = practico4;
+           break;
+        case 'practico5': testTitle = 'TEST NUEVO TEMA 5 OPO';
+            quiz = practico5;
+           break; 
+        case 'practico6': testTitle = 'TEST NUEVO TEMA 6 OPO';
+            quiz = practico6;
+           break; 
+        case 'practico7': testTitle = 'TEST NUEVO TEMA 7 OPO';
+            quiz = practico7;
+           break; 
+		case 'practico8': testTitle = 'TEST NUEVO TEMA 8 OPO';
+            quiz = practico8;
+           break;
+        case 'practico9': testTitle = 'TEST NUEVO TEMA 9 OPO';
+            quiz = practico9;
+           break; 
+		case 'practico10': testTitle = 'TEST NUEVO TEMA 10 OPO';
+            quiz = practico10;
+           break;
+		case 'mixayto': testTitle = 'TEST MIX OPO';
+            quiz = mixayto;
+           break;
         case 'tai2024': testTitle = 'TEST TAI 2024';
             quiz = tai2024;
            break;     
@@ -249,7 +282,8 @@ function loadQuestions(category) {
              ...tema24, ...tema25, ...tema31, ...tema33, ...tema34, ...tema35, ...tema36, ...tema37, ...tema40, ...tema402, ...tema42, ...tema43, ...tema44, ...tema45, ...tema46,
              ...tema47, ...tema48, ...tema1opo, ...tema2opo, ...tema3opo, ...tema4opo, ...tema5opo, ...tema6opo, ...tema7opo, ...tema8opo, ...tema9opo, ...tema10opo, ...tai2024,
 			 ...tailibre2024, ...tailibre2023, ...juntalibre2023, ...ayudantestecnicos, ...uninavarra2024, ...auxiliarcadiz2022, ...taiburriana2024, ...uninavarrapb2024, ...uninavarrapb2024,
-			 ...tsupcyl2024, ...rioja2024, ...jcastellon2024, ...sasbaleares, /* ...stai2024, */...taial2025, ...tmisas2025, ...tstsas2024, ...tgccli2025, ...raid, ...cablesred].sort(() => Math.random() - 0.5).slice(0, 50);
+			 ...tsupcyl2024, ...rioja2024, ...jcastellon2024, ...sasbaleares, /* ...stai2024, */...taial2025, ...tmisas2025, ...tstsas2024, ...tgccli2025, ...raid, ...cablesred,
+			 ...practico1, ...practico2, ...practico3, ...practico4, ...practico5, ...practico6, ...practico7, ...practico8, ...practico9, ...practico10, ...mixayto].sort(() => Math.random() - 0.5).slice(0, 50);
             break;
         default: quiz = []; testTitle = 'TEST DESCONOCIDO';
     }
@@ -470,6 +504,17 @@ function createRandomTestSelector() {
 		{id: 'tema8opo', name: 'Tema 8 OPO - Comunicaciones. Medios de transmisión'},
         {id: 'tema9opo', name: 'Tema 9 OPO - Seguridad y protección en redes de comunicaciones'},
 		{id: 'tema10opo', name: 'Tema 10 OPO - Sistemas de Almacenamiento de Altas Prestaciones'},
+		{id: 'tema1opo', name: 'Tema NUEVO 1 OPO - Informática básica'},
+        {id: 'tema2opo', name: 'Tema NUEVO 2 OPO - Sistemas operativos'},
+        {id: 'tema3opo', name: 'Tema NUEVO 3 OPO - Aplicaciones web'},
+		{id: 'tema4opo', name: 'Tema NUEVO 4 OPO - Administracion base de datos'},
+        {id: 'tema5opo', name: 'Tema NUEVO 5 OPO - Sistemas de backup y su recuperación'},
+        {id: 'tema6opo', name: 'Tema NUEVO 6 OPO - Conceptos de seguridad de los sistemas de información'},
+        {id: 'tema7opo', name: 'Tema NUEVO 7 OPO - Infraestructura física de un CPD'},
+		{id: 'tema8opo', name: 'Tema NUEVO 8 OPO - Comunicaciones. Medios de transmisión'},
+        {id: 'tema9opo', name: 'Tema NUEVO 9 OPO - Seguridad y protección en redes de comunicaciones'},
+		{id: 'tema10opo', name: 'Tema NUEVO 10 OPO - Sistemas de Almacenamiento de Altas Prestaciones'},
+		{id: 'mixayto', name: 'Tema MIX OPO'},
         {id: 'tai2024', name: 'TAI 2024'},
 		{id: 'tailibre2024', name: 'TAI LIBRE 2024'},
 		{id: 'tailibre2023', name: 'TAI LIBRE 2023'},
@@ -669,6 +714,17 @@ function generateCustomTest() {
 			case 'tema8opo': allQuestions = allQuestions.concat(tema8opo); break;
             case 'tema9opo': allQuestions = allQuestions.concat(tema9opo); break;
 			case 'tema10opo': allQuestions = allQuestions.concat(tema10opo); break;
+			case 'practico1': allQuestions = allQuestions.concat(practico1); break;
+            case 'practico2': allQuestions = allQuestions.concat(practico2); break;
+            case 'practico3': allQuestions = allQuestions.concat(practico3); break;
+			case 'practico4': allQuestions = allQuestions.concat(practico4); break;
+			case 'practico5': allQuestions = allQuestions.concat(practico5); break;
+            case 'practico6': allQuestions = allQuestions.concat(practico6); break;
+            case 'practico7': allQuestions = allQuestions.concat(practico7); break;
+			case 'practico8': allQuestions = allQuestions.concat(practico8); break;
+            case 'practico9': allQuestions = allQuestions.concat(practico9); break;
+			case 'practico10': allQuestions = allQuestions.concat(practico10); break;
+			case 'mixayto': allQuestions = allQuestions.concat(mixayto); break;
             case 'tai2024': allQuestions = allQuestions.concat(tai2024); break;
 			case 'tailibre2024': allQuestions = allQuestions.concat(tailibre2024); break;
 			case 'tailibre2023': allQuestions = allQuestions.concat(tailibre2023); break;
