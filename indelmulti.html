@@ -249,10 +249,10 @@
             // Cambiar el texto del botón según el modo
             const nightModeBtn = document.getElementById('night-mode-btn');
             if (document.body.classList.contains('dark-mode')) {
-                nightModeBtn.textContent = '鈽€锔?Modo Claro';
+                nightModeBtn.textContent = '☀️ Modo Claro';
                 localStorage.setItem('darkMode', 'enabled');
             } else {
-                nightModeBtn.textContent = '馃寵 Modo Oscuro';
+                nightModeBtn.textContent = '🌙 Modo Oscuro';
                 localStorage.setItem('darkMode', 'disabled');
             }
         }
@@ -266,7 +266,7 @@
             if (localStorage.getItem('darkMode') === 'enabled') {
                 document.documentElement.classList.add('dark-mode');
                 document.body.classList.add('dark-mode');
-                nightModeBtn.textContent = '鈽€锔?Modo Claro';
+                nightModeBtn.textContent = '☀️Modo Claro';
             }
             
             // Ocultar/mostrar el botón según el scroll
